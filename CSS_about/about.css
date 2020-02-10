@@ -1,0 +1,258 @@
+.ibjj {
+    color:coral; 
+    font-size: 190%;
+    margin-left: 2%;
+    font-weight: lighter;
+}
+.margin-left-font-size-color {
+    margin-left: 53%;
+    word-spacing: 1.5em;
+    font-size: 110%;
+    font-weight: lighter;
+    letter-spacing: 0.01em;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color: black;
+}
+.word-spacing {
+    word-spacing: 0.1em
+}
+.margin-spacing {
+    margin-left: 1.5em;
+}
+.intro {
+    text-align: center;
+    color: rgb(182, 181, 181);
+    font-size: 135%;
+    font-weight: lighter;
+}
+.first-section {
+    color: lightslategray;
+    text-align: center;
+}
+.about {
+    font-size: 340%;
+    text-align: center;
+    font-weight: lighter;
+    color: rgb(255, 127, 80);
+    text-decoration: underline
+}
+.align-left {
+    float: left;
+    width: 200px;
+    height: 253px;
+    margin-left: 10%;
+}
+.second-section {
+    margin-left: 30%;
+    margin-right: 10%;
+    line-height: 2;
+    letter-spacing: 0.01;
+    word-spacing: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightslategray;
+}
+.align-right {
+    float: right;
+    height: 450px;
+    width: 500px;
+
+}
+.third-section {
+    line-height: 2;
+    letter-spacing: 0.01em;
+    word-spacing: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightslategray;
+    margin-right: 8%;
+    margin-left: 10%;
+}
+.dave-history {
+    width: 45%;
+    text-align: right;
+}
+.experience {
+    width: 45%;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif
+}
+.experience-heading {
+    color: coral;
+    font-size: 140%;
+}
+.professor {
+    color: rgb(182, 181, 181);
+    font-size: 135%;
+    font-weight: lighter;
+    text-align: right;
+    width: 45%;
+    line-height: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.dave-birkett {
+    font-size: 310%;
+    font-weight: lighter;
+    color: rgb(255, 127, 80);
+    text-decoration: underline;
+    text-align: right;
+    width: 45%;
+    line-height: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.dave-rank {
+    width: 45%;
+}
+.blackbelt-promotion {
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightslategray;
+    font-weight: lighter;
+}
+.image-belt {
+    width:50%;
+}
+.image-black-belt {
+    width: 50%;
+}   
+.fourth-section {
+    color: lightslategray;
+    margin-left: 13%;
+    line-height: 2;
+    letter-spacing: 0.01em;
+    word-spacing: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.coach {
+    color: rgb(182, 181, 181);
+    font-size: 135%;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1;
+}
+.kishy {
+    font-size: 180%;
+    font-weight: lighter;
+    color: rgb(255, 127, 80);
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+.experience-kishy-color {
+    color: coral;
+    font-size: 140%;
+}
+.assistant-coach {
+    color: lightslategray;
+    line-height: 3;
+    letter-spacing: 0.01em;
+    word-spacing: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.experience-kishy {
+    line-height: 2;
+}
+.about-kish {
+    line-height: 1;
+}
+.brazilian-jj {
+    line-height: 2;
+}
+.fith-section {
+    color: lightslategray;
+    margin-left: 16%;
+    margin-right: 16%;
+    line-height: 2;
+    letter-spacing: 0.01em;
+    word-spacing: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.link-contact {
+    text-align: center;
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.01em;
+}
+a.contact:link {
+    color: white;
+}
+a.contact:active {
+    color: coral;
+}
+a.contact:hover {
+    color: coral;
+}
+.contact-box {
+    height: 5%;
+    width: 21%;
+    background-color: coral;
+    margin-left: 40%;
+    padding: 0.01%;
+}
+.bottom1 {
+    width: 230px;
+    height: 200px;
+    margin-left: 4.1%;
+}
+.bottom2 {
+    width: 230px;
+    height: 200px;
+    margin-left: 4.1%;
+}
+.bottom3 {
+    width: 230px;
+    height: 200px;
+    margin-left: 4.1%;
+}
+.bottom4 {
+    width: 230px;
+    height: 200px;
+    margin-left: 4.1%;
+}
+.sixth-section {
+    letter-spacing: 0.01em;
+    word-spacing: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: lightslategray;
+}
+.rickson {
+    margin-left: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.muricio {
+    margin-left: 9%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pedro {
+    margin-left: 8.1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gui {
+    margin-left: 10.1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightslategray;
+}
+.footer-2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightslategray;
+}
+a.one:link {
+    color: lightslategray;
+    text-decoration: underline;
+}
+a.one:visited {
+    color: lightslategray;
+    text-decoration: none;
+}
+ul {
+    list-style-type: square;
+}
+
