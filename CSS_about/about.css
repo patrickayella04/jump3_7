@@ -252,7 +252,12 @@ a.one:visited {
     color: lightslategray;
     text-decoration: none;
 }
+.footer-short {
+    margin-left: 7%;
+    margin-right: 7%;
+}
 ul {
     list-style-type: square;
 }
+
 
