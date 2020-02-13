@@ -1,0 +1,114 @@
+.ibjj {
+    color:coral; 
+    font-size: 190%;
+    margin-left: 2%;
+    font-weight: lighter;
+}
+.margin-left-font-size-color {
+    margin-left: 53%;
+    word-spacing: 1.5em;
+    font-size: 110%;
+    font-weight: lighter;
+    letter-spacing: 0.01em;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color: black;
+}
+.word-spacing {
+    word-spacing: 0.1em
+}
+.margin-spacing {
+    margin-left: 1.5em;
+}
+.first-section {
+    color: lightslategray;
+    text-align: center;
+}
+.Pricelist {
+    font-size: 370%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    font-weight: lighter;
+    color: rgb(255, 127, 80);
+    text-decoration: underline
+}
+.second-section {
+    margin-left: 23%;
+    margin-right: 23%;
+    font-size: x-large;
+}
+.juniors {
+    font-size: xx-large;
+    color: coral;
+}
+.adults {
+    font-size: xx-large;
+    color: coral;
+}
+.private-tuition {
+    font-size: xx-large;
+    color: coral;
+}
+.money-5 {
+    margin-left: 82%;
+}
+.money-10 {
+    margin-left: 80%;
+}
+.money-20 {
+    margin-left: 53%;
+}
+.money-60 {
+    margin-left: 72%;
+}
+.money-125 {
+    margin-left: 60.5%;
+}
+.link-contact {
+    text-align: center;
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.01em;
+}
+a.contact:link {
+    color: white;
+}
+a.contact:active {
+    color: coral;
+}
+a.contact:hover {
+    color: coral;
+}
+.contact-box {
+    height: 5%;
+    width: 21%;
+    background-color: coral;
+    margin-left: 40%;
+    padding: 0.01%;
+}
+.footer-1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightslategray;
+}
+.footer-2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightslategray;
+}
+a.one:link {
+    color: lightslategray;
+    text-decoration: underline;
+}
+a.one:visited {
+    color: lightslategray;
+    text-decoration: none;
+}
+.footer-short {
+    margin-left: 7%;
+    margin-right: 7%;
+}

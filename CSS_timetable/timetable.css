@@ -107,4 +107,8 @@ a.two:visited {
     color: lightslategray;
     text-decoration: none;
 }
+.footer-short {
+    margin-left: 7%;
+    margin-right: 7%;
+}
 
