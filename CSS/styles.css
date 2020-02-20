@@ -1,22 +1,23 @@
+/*website styles for website options navigation*/
 .ibjj {
-    color:coral; 
-    font-size: 190%;
-    margin-left: 2%;
+    color:#ff7f50; 
+    font-size: 2rem;
+    margin-left: 30px;
     font-weight: lighter;
 }
 .margin-left-font-size-color {
-    margin-left: 53%;
+    margin-left: 650px;
     word-spacing: 1.5em;
-    font-size: 110%;
+    font-size: 1.1rem;
     font-weight: lighter;
     letter-spacing: 0.01em;
 }
 a:link {
     text-decoration: none;
-    color: black;
+    color: #000000;
 }
 a:visited {
-    color: black;
+    color: #000000;
 }
 .word-spacing {
     word-spacing: 0.1em
@@ -24,67 +25,553 @@ a:visited {
 .margin-spacing {
     margin-left: 1.5em;
 }
-.h1-underline-font-color-size{
+/*top styles for page navigation end*/
+
+/*website styles for footer*/
+.footer-1 {
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 340%;
+    color: #778899;
+}
+.footer-2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #778899;
+}
+a.one:link {
+    text-decoration: underline;
+    color: #778899;
+}
+a.one:visited {
+    text-decoration: none;
+    color: #778899;
+}
+/*website styles for footer end*/
+
+/*about & pricelist pages for 'contact' active box styles*/
+.link-contact {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.01em;
+}
+a.contact:link {
+    color: #ffffff;
+}
+a.contact:active {
+    color: #ff7f50;
+}
+a.contact:hover {
+    color: #ff7f50;
+}
+.contact-box {
+    height: 60px;
+    width: 240px;
+    background-color: #ff7f50;
+    margin-left: 510px;
+    padding: 3px;
+}
+/*about & pricelist pages for 'contact' active box styles*/
+
+/*home styles*/
+.layout-relative-position-one-home {
+    position: relative;
+    top: 20px;
+}
+.background-image-home {
+    background-image: url(https://www.publicdomainpictures.net/pictures/110000/velka/charcoal-black-background.jpg);
+    position: relative;
+    top: 65px;
+    padding-top: 140px;
+    padding-bottom: 148px;
+}
+.h2-spacing-home {
+    position: relative;
+    top:130px;
+    padding-bottom: 100px;
+}
+.content-all-home {
+    padding-bottom: 40px;
+}
+.footer-home {
+    position: relative;
+    bottom: 15px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.footer-content-home {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.h1-underline-font-color-size-home {
+    text-align: center;
+    font-size: 3.5rem;
     text-decoration: underline;
     font-weight: lighter;
-    color: rgb(255, 230, 4);
+    color: #ffe604;
 }
-.subheading-font-color-size{
+.subheading-font-color-size-home {
     text-align: center;
-    font-size: 200%;
-    color: coral;
+    font-size: 2rem;
+    color: #ff7f50;
     font-weight: lighter;
 }
-.background-image {
-    background-image: url(https://eatsleepandbreathejiujitsu.files.wordpress.com/2013/03/bjj1.jpg);
-    
-}
-.h2-underline-font-color {
+.h2-underline-font-color-home {
     text-align: center;
-    font-size: 300%;
-    color: coral;
+    font-size: 3rem;
+    color: #ff7f50;
     font-weight: lighter;
     text-decoration: underline;
 }
-.main-content {
-    margin-left: 14%;
-    margin-right: 14%;
+.main-content-home {
+    margin-left: 170px;
+    margin-right: 170px;
     word-spacing: 0.01em;
     letter-spacing: 0.01em;
-    line-height: 200%;
+    line-height: 35px;
     font-family: Arial, Helvetica, sans-serif;
-    color: lightslategray;
+    color: #778899;
 }
-.about-dave-heading {
+.about-dave-heading-home {
     font-weight: bold;
 }
 ul {
     list-style-type: square;
 }
-.footer-1 {
-    font-family: Arial, Helvetica, sans-serif;
+.footer-margin-home {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*home styles end*/
+
+/*about styles*/
+.layout-relative-position-one-about {
+    position: relative;
+    top: 20px;
+    padding-bottom: 80px;
+}
+.layout-head-about {
+    position: relative;
+    padding-top: 80x;
+    padding-bottom: 40px;
+}  
+.header-position-about {
+    position: relative;
+    bottom: 35px;
+}
+.third-section-about {
+    position: relative;
+    top: 200px;
+} 
+.pictures-mid-page-about {
+    position: relative;
+    top: 100px;
+    padding-bottom: 300px;
+}
+.fith-section-about {
+    position: relative;
+    top: 130px;
+    padding-bottom: 250px;
+}
+.contact-box-about {
+    position: relative;
+    bottom: 40px;
+    height: 60px;
+    width: 240px;
+    background-color: #ff7f50;
+    margin-left: 510px;
+    padding: 3px;
+}
+.sixth-section-about {
+    position: relative;
+    top: 10px;
+}
+.footer {
+    position: relative;
+    top: 70px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.footer-content {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.intro {
+    text-align: center;
+    color: #b6b5b5;
+    font-weight: lighter;
+}
+.first-section-about {
     color: lightslategray;
     text-align: center;
+    font-size: 1.5rem;
 }
-.footer-2 {
+.about {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: lighter;
+    color: #ff7f50;
+    text-decoration: underline
+}
+.align-left-about {
+    float: left;
+    width: 200px;
+    height: 253px;
+    margin-left: 80px;
+}
+.second-section-about {
+    margin-left: 330px;
+    margin-right: 100px;
+    line-height: 2;
+    letter-spacing: 0.01;
+    word-spacing: 0.1em;
     font-family: Arial, Helvetica, sans-serif;
-    color: lightslategray;
+    color: #778899;
+}
+.align-right-about {
+    float: right;
+    height: 450px;
+    width: 500px;
+}
+.third-section-about {
+    line-height: 2;
+    letter-spacing: 0.01em;
+    word-spacing: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #778899;
+    margin-right: 100px;
+    margin-left: 120px; 
+}
+.dave-history {
+    width: 462px;
+    text-align: right;
+}
+.experience-about {
+    width: 462px;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif
+}
+.experience-heading {
+    color: #ff7f50;
+    font-size: 1.5rem;
+}
+.professor-about {
+    color: #b6b5b5;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    text-align: right;
+    width: 462px;
+    line-height: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.dave-birkett {
+    font-size: 3rem;
+    font-weight: lighter;
+    color: #ff7f50;
+    text-decoration: underline;
+    text-align: right;
+    width: 462px;
+    line-height: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.dave-rank {
+    width: 462px;
+}
+.blackbelt-promotion {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #778899;
+    font-weight: lighter;
+}
+.image-belt {
+    width:472px;
+}
+.image-black-belt {
+    width: 472px;
+}   
+.fourth-section-about {
+    color: #778899;
+    margin-left: 157px;
+    line-height: 2;
+    letter-spacing: 0.01em;
+    word-spacing: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.coach {
+    color: #b6b5b5;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1;
+}
+.kishy {
+    font-size: 3rem;
+    font-weight: lighter;
+    color: #ff7f50;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+.experience-kishy-color {
+    color: #ff7f50;
+    font-size: 1.5rem;
+}
+.assistant-coach {
+    color: #778899;
+    line-height: 3;
+    letter-spacing: 0.01em;
+    word-spacing: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.experience-kishy {
+    line-height: 2;
+}
+.about-kish {
+    line-height: 1;
+}
+.brazilian-jj {
+    line-height: 2;
+}
+.fith-section-about {
+    color: #778899;
+    margin-left: 180px;
+    margin-right: 180px;
+    line-height: 2;
+    letter-spacing: 0.01em;
+    word-spacing: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bottom1 {
+    width: 230px;
+    height: 200px;
+    margin-left: 50px;
+}
+.bottom2 {
+    width: 230px;
+    height: 200px;
+    margin-left: 50px;
+}
+.bottom3 {
+    width: 230px;
+    height: 200px;
+    margin-left: 50px;
+}
+.bottom4 {
+    width: 230px;
+    height: 200px;
+    margin-left: 50px;
+}
+.sixth-section-about {
+    letter-spacing: 0.01em;
+    word-spacing: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: #778899;
+}
+.rickson {
+    margin-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.muricio {
+    margin-left: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pedro {
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gui {
+    margin-left: 133px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-short {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+ul {
+    list-style-type: square;
+}
+/*about styles end*/
+
+/*timetable styles*/
+.layout-relative-position-one-timetable {
+    position: relative;
+    top: 20px;
+    padding-bottom: 80px;
+}
+.layout-head-timetable {
+    position: relative;
+    padding-top: 80x;
+    padding-bottom: 40px;
+}  
+.header-position-timetable {
+    position: relative;
+    bottom: 35px;
+}
+.second-section-timetable {
+    padding-bottom: 15px;
+}
+.third-section-timetable {
+    padding-bottom: 80px;
+}
+.footer-short-timetable {
+    position: relative;
+    top: 35px;
+    padding-bottom: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.footer-content-timetable {
+    padding-bottom: 30px ;
+}
+.first-section-timetable {
+    color: #778899;
     text-align: center;
 }
-.footer-link {
-    text-decoration: lightslategrey;
+.Timetable-timetable {
+    font-size: 4rem;
+    letter-spacing: 0.03em;
+    text-align: center;
+    font-weight: lighter;
+    color: #ff7f50;
+    text-decoration: underline
 }
-a.one:link {
-    color: lightslategray;
+.second-section-timetable {
+    color: #778899;
+    margin-left: 172px;
+    margin-right: 160px;
+    line-height: 2;
+    letter-spacing: 0.01em;
+    word-spacing: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Ilford-Timetable-timetable {
+    font-size: 2rem;
+    font-weight: lighter;
+    color: #ff7f50;
+    width: 300px;
+    line-height: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.third-section-timetable {
+    color: #778899;
+    margin-left: 172px;
+    margin-right: 160px;
+    line-height: 3;
+    letter-spacing: 0.01em;
+    word-spacing: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Sunday-Class-timetable {
+    font-weight: bold;
+}
+.Dartford-Timetable-timetable {
+    font-size: 2rem;
+    font-weight: lighter;
+    color: #ff7f50;
+    width: 300px;
+    line-height: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.fouth-section-timetable {
+    color: #778899;
+    margin-left: 172px;
+    margin-right: 160px;
+    line-height: 3;
+    letter-spacing: 0.01em;
+    word-spacing: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.two:link {
+    color: #ff7f50;
     text-decoration: underline;
 }
-a.one:visited {
-    color: lightslategray;
-    text-decoration: none;
+.two:visited {
+    color: #db6e46;
 }
-.footer-margin {
-    margin-left: 7%;
-    margin-right: 7%;
+.footer-short-timetable {
+    position: relative;
+    top: 35px;
+    padding-bottom: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
+/*timetable styles end*/
+
+/*pricelist styles*/
+.header-position-pricelist {
+    position: relative;
+    bottom: 35px;
+}
+.layout-relative-position-one-pricelist {
+    position: relative;
+    top: 20px;
+    padding-bottom: 80px;
+}
+.first-section-position-pricelist {
+    padding-bottom: 20px;
+}
+.second-section-pricelist {
+    padding-bottom: 50px;
+}
+.footer-short-pricelist {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.footer-content-pricelist {
+    padding-bottom: 30px;
+}
+.first-section-pricelist {
+    color: #778899;
+    text-align: center;
+}
+.Pricelist-pricelist {
+    font-size: 4rem;
+    letter-spacing: 0.03em;
+    text-align: center;
+    font-weight: lighter;
+    color: #ff7f50;
+    text-decoration: underline
+}
+.second-section-pricelist {
+    margin-left: 283px;
+    margin-right: 283px;
+    font-size: 1.5rem;
+}
+.juniors-pricelist {
+    font-size: 2.2rem;
+    color: #ff8052;
+}
+.adults-pricelist {
+    font-size: 2.2rem;
+    color: coral;
+}
+.private-tuition-pricelist {
+    font-size: 2.2rem;
+    color: #ff7f50;
+}
+.money-5-pricelist {
+    margin-left: 555px;
+}
+.money-10-pricelist {
+    margin-left: 541px;
+}
+.money-20-pricelist {
+    margin-left: 359px;
+}
+.money-60-pricelist {
+    margin-left: 490px;
+}
+.money-125-pricelist {
+    margin-left: 416px;
+}
+/*pricelist styles end*/
+
+
+
+
+
+
+
+
