@@ -73,17 +73,54 @@ a.contact:hover {
 }
 /*about & pricelist pages for 'contact' active box styles*/
 
+/*website style for unordered lists*/
+ul {
+    list-style-type:none;
+}
+li {
+    text-indent: -40px;
+    margin-left: 40px;
+}
+li:before {
+    content: ">";
+    padding-right: 30px;
+    color: #778899;
+}
+/*website style for unordered lists*/
+
 /*home styles*/
 .layout-relative-position-one-home {
     position: relative;
     top: 20px;
 }
 .background-image-home {
-    background-image: url(https://www.publicdomainpictures.net/pictures/110000/velka/charcoal-black-background.jpg);
-    position: relative;
+    background-image: url(Pictures/wenge.jpg);
+    position: relative; 
     top: 65px;
     padding-top: 140px;
     padding-bottom: 148px;
+}
+.line {
+    box-align: center;
+    width: 80px;
+    border-style: solid;
+    color: burlywood;
+    position: relative;
+    bottom: 40px;
+}
+.line2 {
+    position: relative;
+    top: 45px;
+    width: 60em;
+    border-style: solid;
+    color:#ffffff;
+}
+.line3 {
+    position: relative;
+    bottom: 45px;
+    width: 60em;
+    border-style: solid;
+    color:#ffffff;
 }
 .h2-spacing-home {
     position: relative;
@@ -96,8 +133,7 @@ a.contact:hover {
 .footer-home {
     position: relative;
     bottom: 15px;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin: 0 100px 0 100px;
 }
 .footer-content-home {
     padding-top: 10px;
@@ -106,9 +142,8 @@ a.contact:hover {
 .h1-underline-font-color-size-home {
     text-align: center;
     font-size: 3.5rem;
-    text-decoration: underline;
     font-weight: lighter;
-    color: #ffe604;
+    color: #ffffff;
 }
 .subheading-font-color-size-home {
     text-align: center;
@@ -121,7 +156,6 @@ a.contact:hover {
     font-size: 3rem;
     color: #ff7f50;
     font-weight: lighter;
-    text-decoration: underline;
 }
 .main-content-home {
     margin-left: 170px;
@@ -135,16 +169,12 @@ a.contact:hover {
 .about-dave-heading-home {
     font-weight: bold;
 }
-ul {
-    list-style-type: square;
-}
-.footer-margin-home {
-    margin-left: 10px;
-    margin-right: 10px;
-}
 /*home styles end*/
 
 /*about styles*/
+.upmost {
+    width:455px;
+}
 .layout-relative-position-one-about {
     position: relative;
     top: 20px;
@@ -152,8 +182,7 @@ ul {
 }
 .layout-head-about {
     position: relative;
-    padding-top: 80x;
-    padding-bottom: 40px;
+    padding: 80x 0 40px 0;
 }  
 .header-position-about {
     position: relative;
@@ -189,12 +218,11 @@ ul {
 .footer {
     position: relative;
     top: 70px;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin: 0 100px 0 100px;
+    
 }
 .footer-content {
-    padding-top: 100px;
-    padding-bottom: 30px;
+    padding: 100px 0 30px 0;
 }
 .intro {
     text-align: center;
@@ -220,8 +248,7 @@ ul {
     margin-left: 80px;
 }
 .second-section-about {
-    margin-left: 330px;
-    margin-right: 100px;
+    margin: 0 100px 0 330px;
     line-height: 2;
     letter-spacing: 0.01;
     word-spacing: 0.1em;
@@ -239,8 +266,7 @@ ul {
     word-spacing: 0.1em;
     font-family: Arial, Helvetica, sans-serif;
     color: #778899;
-    margin-right: 100px;
-    margin-left: 120px; 
+    margin: 0 100px 0 120px;
 }
 .dave-history {
     width: 462px;
@@ -340,22 +366,7 @@ ul {
     word-spacing: 0.1em;
     font-family: Arial, Helvetica, sans-serif;
 }
-.bottom1 {
-    width: 230px;
-    height: 200px;
-    margin-left: 50px;
-}
-.bottom2 {
-    width: 230px;
-    height: 200px;
-    margin-left: 50px;
-}
-.bottom3 {
-    width: 230px;
-    height: 200px;
-    margin-left: 50px;
-}
-.bottom4 {
+.bottom {
     width: 230px;
     height: 200px;
     margin-left: 50px;
@@ -367,28 +378,20 @@ ul {
     font-size: medium;
     color: #778899;
 }
-.rickson {
-    margin-left: 90px;
+.visitors {
     font-family: Arial, Helvetica, sans-serif;
 }
+.rickson {
+    margin-left: 90px;
+}
 .muricio {
-    margin-left: 110px;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 113px;
 }
 .pedro {
     margin-left: 100px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .gui {
-    margin-left: 133px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.footer-short {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-ul {
-    list-style-type: square;
+    margin-left: 130px;
 }
 /*about styles end*/
 
