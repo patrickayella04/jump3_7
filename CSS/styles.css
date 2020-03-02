@@ -1,48 +1,48 @@
 /*website styles for website options navigation*/
-.ibjj {
+.website-logo {
     color:#ff7f50; 
     font-size: 2rem;
     margin-left: 30px;
     font-weight: lighter;
 }
-.margin-left-font-size-color {
+.navigation-bar {
     margin-left: 650px;
     word-spacing: 1.5em;
     font-size: 1.1rem;
     font-weight: lighter;
     letter-spacing: 0.01em;
 }
-a:link {
+.navigation-bar-buttons:link {
     text-decoration: none;
     color: #000000;
 }
-a:visited {
+.navigation-bar-buttons:visited {
     color: #000000;
 }
-.word-spacing {
+.about-us {
     word-spacing: 0.1em
 }
-.margin-spacing {
+.aboutus-timetable {
     margin-left: 1.5em;
 }
 /*top styles for page navigation end*/
 
 /*website styles for footer*/
-.footer-1 {
+.page-copyrights {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: #778899;
 }
-.footer-2 {
+.webnode-builder {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: #778899;
 }
-a.one:link {
+a.webnode:link {
     text-decoration: underline;
     color: #778899;
 }
-a.one:visited {
+a.webnode:visited {
     text-decoration: none;
     color: #778899;
 }
@@ -56,6 +56,7 @@ a.one:visited {
     letter-spacing: 0.01em;
 }
 a.contact:link {
+    text-decoration: none;
     color: #ffffff;
 }
 a.contact:active {
@@ -89,18 +90,58 @@ li:before {
 /*website style for unordered lists*/
 
 /*home styles*/
-.layout-relative-position-one-home {
+.homepage-container {
+    padding-bottom: 40px;
+}
+.navigation-container-home {
     position: relative;
     top: 20px;
 }
-.background-image-home {
-    background-image: url(Pictures/wenge.jpg);
+.backdrop-texture-home {
+    background-image: url(../img/wenge.jpg);
     position: relative; 
     top: 65px;
     padding-top: 140px;
     padding-bottom: 148px;
 }
-.line {
+.top-border-ilfordbjj-home {
+    position: relative;
+    top: 45px;
+    width: 60em;
+    border-style: solid;
+    color:#ffffff;
+}
+.ILFORD-BRAZILIAN-JIU-JITSU-home {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: lighter;
+    color: #ffffff;
+}
+.bottom-border-ilfordbjj-home {
+    position: relative;
+    bottom: 45px;
+    width: 60em;
+    border-style: solid;
+    color:#ffffff;
+}
+.teaching-formats-home {
+    text-align: center;
+    font-size: 2rem;
+    color: #ff7f50;
+    font-weight: lighter;
+}
+.inception-container-home {
+    position: relative;
+    top:130px;
+    padding-bottom: 100px;
+}
+.BRAZILIAN-JIU-JITSU-home {
+    text-align: center;
+    font-size: 3rem;
+    color: #ff7f50;
+    font-weight: lighter;
+}
+.bottom-border-bjiujitsu-home {
     box-align: center;
     width: 80px;
     border-style: solid;
@@ -108,56 +149,7 @@ li:before {
     position: relative;
     bottom: 40px;
 }
-.line2 {
-    position: relative;
-    top: 45px;
-    width: 60em;
-    border-style: solid;
-    color:#ffffff;
-}
-.line3 {
-    position: relative;
-    bottom: 45px;
-    width: 60em;
-    border-style: solid;
-    color:#ffffff;
-}
-.h2-spacing-home {
-    position: relative;
-    top:130px;
-    padding-bottom: 100px;
-}
-.content-all-home {
-    padding-bottom: 40px;
-}
-.footer-home {
-    position: relative;
-    bottom: 15px;
-    margin: 0 100px 0 100px;
-}
-.footer-content-home {
-    padding-top: 10px;
-    padding-bottom: 30px;
-}
-.h1-underline-font-color-size-home {
-    text-align: center;
-    font-size: 3.5rem;
-    font-weight: lighter;
-    color: #ffffff;
-}
-.subheading-font-color-size-home {
-    text-align: center;
-    font-size: 2rem;
-    color: #ff7f50;
-    font-weight: lighter;
-}
-.h2-underline-font-color-home {
-    text-align: center;
-    font-size: 3rem;
-    color: #ff7f50;
-    font-weight: lighter;
-}
-.main-content-home {
+.inception-content-home {
     margin-left: 170px;
     margin-right: 170px;
     word-spacing: 0.01em;
@@ -166,41 +158,214 @@ li:before {
     font-family: Arial, Helvetica, sans-serif;
     color: #778899;
 }
-.about-dave-heading-home {
+.original-teachings-home {
     font-weight: bold;
+}
+.footer-home {
+    position: relative;
+    bottom: 15px;
+    margin: 0 100px 0 100px;
+}
+.footer-content-home {
+    padding: 10px 0 30px 0;
 }
 /*home styles end*/
 
 /*about styles*/
-.upmost {
-    width:455px;
-}
-.layout-relative-position-one-about {
+.navigation-container-about {
     position: relative;
     top: 20px;
     padding-bottom: 80px;
 }
-.layout-head-about {
-    position: relative;
-    padding: 80x 0 40px 0;
-}  
-.header-position-about {
+.navigation-divider-about {
     position: relative;
     bottom: 35px;
 }
-.third-section-about {
+.school-introduction-about {
+    position: relative;
+    padding: 80x 0 40px 0;
+} 
+.who-we-are-about {
+    color: lightslategray;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.big-introduction-about {
+    text-align: center;
+    color: #b6b5b5;
+    font-weight: lighter;
+}
+.whos-school-about {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: lighter;
+    color: #ff7f50;
+}
+.big-style-about {
+    border-style: solid;
+    width: 80px;
+    color: #deb887;
+    position: relative;
+    bottom: 20px;
+}
+.inspire-style-about {
+    position: relative;
+    top: 550px;
+    left: 520px;
+    width: 500px;
+}
+.helio-boss-about {
+    float: left;
+    width: 200px;
+    height: 253px;
+    margin-left: 80px;
+}
+.what-we-offer-about {
+    margin: 0 100px 0 330px;
+    line-height: 2;
+    letter-spacing: 0.01;
+    word-spacing: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #778899;
+}
+.who-our-professor-is-about {
     position: relative;
     top: 200px;
-} 
-.pictures-mid-page-about {
+    line-height: 2;
+    letter-spacing: 0.01em;
+    word-spacing: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #778899;
+    margin: 0 100px 0 120px;
+}
+.inspiring-jiujitsu-about {
+    float: right;
+    height: 450px;
+    width: 500px;
+}
+.professional-title-about {
+    color: #b6b5b5;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    text-align: right;
+    width: 462px;
+    line-height: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.dave-birkett-about {
+    font-size: 3rem;
+    font-weight: lighter;
+    color: #ff7f50;
+    text-align: right;
+    width: 462px;
+    line-height: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.more-style-about {
+    width: 80px;
+    border-style: solid;
+    color: #deb887;
+    position: relative;
+    bottom: 15px;
+    right: 40px;
+}
+.dave-history-about {
+    width: 462px;
+    text-align: right;
+}
+.credentials-start-about {
+    width: 462px;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif
+}
+.coming-from-about {
+    color: #ff7f50;
+    font-size: 1.5rem;
+}
+.dave-rank-about {
+    width: 462px;
+}
+.ranks-for-days-about {
+    width:455px;
+}
+.white-to-black-belt-about {
     position: relative;
     top: 100px;
     padding-bottom: 300px;
 }
-.fith-section-about {
+.belt-about {
+    width:472px;
+}
+.blackbelt-promotion-about {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #778899;
+    font-weight: lighter;
+}
+.second-in-command-about {
+    color: #778899;
+    margin-left: 157px;
+    line-height: 2;
+    letter-spacing: 0.01em;
+    word-spacing: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.coach-about {
+    color: #b6b5b5;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1;
+}
+.kishy-about {
+    position: relative;
+    top: 10px;
+    font-size: 3rem;
+    font-weight: lighter;
+    color: #ff7f50;
+    font-family: 'Times New Roman', Times, serif;
+}
+.extra-style-about {
+    width: 80px;
+    border-style: solid;
+    color: #deb887;
+    position: relative;
+    bottom: 5px;
+    right: 260px;
+}
+.many-years-about {
+    line-height: 1;
+}
+.assistant-coach-about {
+    position: relative;
+    top: 10px;
+    color: #778899;
+    line-height: 3;
+    letter-spacing: 0.01em;
+    word-spacing: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.experience-kishy-about {
+    line-height: 2;
+}
+.total-experience-about {
+    color: #ff7f50;
+    font-size: 1.5rem;
+}
+.brazilian-jj-about {
+    line-height: 2;
+}
+.hosted-professors-about {
     position: relative;
     top: 130px;
     padding-bottom: 250px;
+    color: #778899;
+    margin-left: 180px;
+    margin-right: 180px;
+    line-height: 2;
+    letter-spacing: 0.01em;
+    word-spacing: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .contact-box-about {
     position: relative;
@@ -211,336 +376,186 @@ li:before {
     margin-left: 510px;
     padding: 3px;
 }
-.sixth-section-about {
-    position: relative;
-    top: 10px;
-}
-.footer {
-    position: relative;
-    top: 70px;
-    margin: 0 100px 0 100px;
-    
-}
-.footer-content {
-    padding: 100px 0 30px 0;
-}
-.intro {
-    text-align: center;
-    color: #b6b5b5;
-    font-weight: lighter;
-}
-.first-section-about {
-    color: lightslategray;
-    text-align: center;
-    font-size: 1.5rem;
-}
-.about {
-    font-size: 4rem;
-    text-align: center;
-    font-weight: lighter;
-    color: #ff7f50;
-    text-decoration: underline
-}
-.align-left-about {
-    float: left;
-    width: 200px;
-    height: 253px;
-    margin-left: 80px;
-}
-.second-section-about {
-    margin: 0 100px 0 330px;
-    line-height: 2;
-    letter-spacing: 0.01;
-    word-spacing: 0.1em;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #778899;
-}
-.align-right-about {
-    float: right;
-    height: 450px;
-    width: 500px;
-}
-.third-section-about {
-    line-height: 2;
-    letter-spacing: 0.01em;
-    word-spacing: 0.1em;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #778899;
-    margin: 0 100px 0 120px;
-}
-.dave-history {
-    width: 462px;
-    text-align: right;
-}
-.experience-about {
-    width: 462px;
-    text-align: right;
-    font-family: 'Times New Roman', Times, serif
-}
-.experience-heading {
-    color: #ff7f50;
-    font-size: 1.5rem;
-}
-.professor-about {
-    color: #b6b5b5;
-    font-size: 1.5rem;
-    font-weight: lighter;
-    text-align: right;
-    width: 462px;
-    line-height: 0;
-    font-family: 'Times New Roman', Times, serif;
-}
-.dave-birkett {
-    font-size: 3rem;
-    font-weight: lighter;
-    color: #ff7f50;
-    text-decoration: underline;
-    text-align: right;
-    width: 462px;
-    line-height: 0;
-    font-family: 'Times New Roman', Times, serif;
-}
-.dave-rank {
-    width: 462px;
-}
-.blackbelt-promotion {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #778899;
-    font-weight: lighter;
-}
-.image-belt {
-    width:472px;
-}
-.image-black-belt {
-    width: 472px;
-}   
-.fourth-section-about {
-    color: #778899;
-    margin-left: 157px;
-    line-height: 2;
-    letter-spacing: 0.01em;
-    word-spacing: 0.1em;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.coach {
-    color: #b6b5b5;
-    font-size: 1.5rem;
-    font-weight: lighter;
-    font-family: 'Times New Roman', Times, serif;
-    line-height: 1;
-}
-.kishy {
-    font-size: 3rem;
-    font-weight: lighter;
-    color: #ff7f50;
-    text-decoration: underline;
-    font-family: 'Times New Roman', Times, serif;
-}
-.experience-kishy-color {
-    color: #ff7f50;
-    font-size: 1.5rem;
-}
-.assistant-coach {
-    color: #778899;
-    line-height: 3;
-    letter-spacing: 0.01em;
-    word-spacing: 0.1em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-}
-.experience-kishy {
-    line-height: 2;
-}
-.about-kish {
-    line-height: 1;
-}
-.brazilian-jj {
-    line-height: 2;
-}
-.fith-section-about {
-    color: #778899;
-    margin-left: 180px;
-    margin-right: 180px;
-    line-height: 2;
-    letter-spacing: 0.01em;
-    word-spacing: 0.1em;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.bottom {
+.bottom-about {
     width: 230px;
     height: 200px;
     margin-left: 50px;
 }
-.sixth-section-about {
+.check-the-stars-about {
+    position: relative;
+    top: 10px;
     letter-spacing: 0.01em;
     word-spacing: 0.1em;
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     color: #778899;
 }
-.visitors {
+.visitors-about {
     font-family: Arial, Helvetica, sans-serif;
 }
-.rickson {
+.rickson-about {
     margin-left: 90px;
 }
-.muricio {
+.muricio-about {
     margin-left: 113px;
 }
-.pedro {
+.pedro-about {
     margin-left: 100px;
 }
-.gui {
+.gui-about {
     margin-left: 130px;
+}
+.footer-about {
+    position: relative;
+    top: 70px;
+    margin: 0 100px 0 100px;
+}
+.nice-page-breaks-about {
+    position: relative;
+    top: 100px;
+    right: 100px;
+    align-content: center;
+    margin: 0 100px 0 100px;
+}
+
+.footer-content-about {
+    padding: 100px 0 30px 0;
 }
 /*about styles end*/
 
 /*timetable styles*/
-.layout-relative-position-one-timetable {
+.navigation-container-timetable {
     position: relative;
     top: 20px;
     padding-bottom: 80px;
 }
-.layout-head-timetable {
-    position: relative;
-    padding-top: 80x;
-    padding-bottom: 40px;
-}  
-.header-position-timetable {
+.navigation-divider-timetable {
     position: relative;
     bottom: 35px;
 }
-.second-section-timetable {
-    padding-bottom: 15px;
-}
-.third-section-timetable {
-    padding-bottom: 80px;
-}
-.footer-short-timetable {
+.pretty-style-timetable {
+    border-style: solid;
+    width: 80px;
+    color: #deb887;
     position: relative;
-    top: 35px;
-    padding-bottom: 60px;
-    margin-left: 100px;
-    margin-right: 100px;
+    bottom: 15px;
 }
-.footer-content-timetable {
-    padding-bottom: 30px ;
-}
-.first-section-timetable {
+.all-levels-welcomed-timetable {
+    padding-bottom: 15px;
     color: #778899;
-    text-align: center;
-}
-.Timetable-timetable {
-    font-size: 4rem;
-    letter-spacing: 0.03em;
-    text-align: center;
-    font-weight: lighter;
-    color: #ff7f50;
-    text-decoration: underline
-}
-.second-section-timetable {
-    color: #778899;
-    margin-left: 172px;
-    margin-right: 160px;
+    margin: 0 160px 0 172px ;
     line-height: 2;
     letter-spacing: 0.01em;
     word-spacing: 0.1em;
     font-family: Arial, Helvetica, sans-serif;
 }
-.Ilford-Timetable-timetable {
-    font-size: 2rem;
-    font-weight: lighter;
-    color: #ff7f50;
-    width: 300px;
-    line-height: 0;
-    font-family: 'Times New Roman', Times, serif;
-}
-.third-section-timetable {
+.your-options-timetable {
+    padding-bottom: 80px;
     color: #778899;
-    margin-left: 172px;
-    margin-right: 160px;
+    margin: 0 160px 0 172px ;
     line-height: 3;
     letter-spacing: 0.01em;
     word-spacing: 0.1em;
     font-family: Arial, Helvetica, sans-serif;
 }
-.Sunday-Class-timetable {
-    font-weight: bold;
-}
-.Dartford-Timetable-timetable {
-    font-size: 2rem;
-    font-weight: lighter;
-    color: #ff7f50;
-    width: 300px;
-    line-height: 0;
-    font-family: 'Times New Roman', Times, serif;
-}
-.fouth-section-timetable {
-    color: #778899;
-    margin-left: 172px;
-    margin-right: 160px;
-    line-height: 3;
-    letter-spacing: 0.01em;
-    word-spacing: 0.1em;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.two:link {
-    color: #ff7f50;
-    text-decoration: underline;
-}
-.two:visited {
-    color: #db6e46;
-}
-.footer-short-timetable {
+.nice-page-breaks-timetable {
     position: relative;
     top: 35px;
     padding-bottom: 60px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: 0 100px 0 100px;
 }
-/*timetable styles end*/
-
-/*pricelist styles*/
-.header-position-pricelist {
-    position: relative;
-    bottom: 35px;
+.footer-content-timetable {
+    padding-bottom: 30px ;
 }
-.layout-relative-position-one-pricelist {
-    position: relative;
-    top: 20px;
-    padding-bottom: 80px;
-}
-.first-section-position-pricelist {
-    padding-bottom: 20px;
-}
-.second-section-pricelist {
-    padding-bottom: 50px;
-}
-.footer-short-pricelist {
-    padding-top: 50px;
-    padding-bottom: 25px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-.footer-content-pricelist {
-    padding-bottom: 30px;
-}
-.first-section-pricelist {
+.when-to-come-timetable {
     color: #778899;
     text-align: center;
 }
-.Pricelist-pricelist {
+.the-official-timetable {
     font-size: 4rem;
     letter-spacing: 0.03em;
     text-align: center;
     font-weight: lighter;
     color: #ff7f50;
-    text-decoration: underline
 }
-.second-section-pricelist {
-    margin-left: 283px;
-    margin-right: 283px;
+.details-time-place-timetable {
+    font-size: 2rem;
+    font-weight: lighter;
+    color: #ff7f50;
+    width: 300px;
+    line-height: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.magic-dojo-timetable {
+    font-weight: bold;
+}
+.the-headquaters-official-timetable {
+    font-size: 2rem;
+    font-weight: lighter;
+    color: #ff7f50;
+    width: 300px;
+    line-height: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.the-original-headquaters-timetable {
+    color: #778899;
+    margin: 0 160px 0 172px;
+    line-height: 3;
+    letter-spacing: 0.01em;
+    word-spacing: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dartford-web-timetable:link {
+    color: #ff7f50;
+    text-decoration: underline;
+}
+.dartford-web-timetable:visited {
+    color: #db6e46;
+}
+/*timetable styles end*/
+
+/*pricelist styles*/
+.navigation-divider-pricelist {
+    position: relative;
+    bottom: 35px;
+}
+.navigation-container-pricelist {
+    position: relative;
+    top: 20px;
+    padding-bottom: 80px;
+}
+.lovely-style-pricelist {
+    border-style: solid;
+    width: 80px;
+    color: #deb887;
+    position: relative;
+    bottom: 15px;
+}
+.the-big-show-pricelist {
+    padding-bottom: 20px;
+}
+.starting-young-pricelist {
+    padding-bottom: 50px;
+    margin: 0 283px 0 283px;
     font-size: 1.5rem;
+}
+.nice-page-breaks-pricelist {
+    padding: 50px 0 25px 0;
+    margin: 0 100px 0 100px;
+}
+.footer-content-pricelist {
+    padding-bottom: 30px;
+}
+.how-much-pricelist {
+    color: #778899;
+    text-align: center;
+}
+.great-pricelist {
+    font-size: 4rem;
+    letter-spacing: 0.03em;
+    text-align: center;
+    font-weight: lighter;
+    color: #ff7f50;
 }
 .juniors-pricelist {
     font-size: 2.2rem;
