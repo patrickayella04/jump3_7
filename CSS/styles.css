@@ -1,4 +1,6 @@
 /*website styles for website options navigation*/
+
+/* */
 .website-logo {
     color:#ff7f50; 
     font-size: 2rem;
@@ -90,57 +92,57 @@ li:before {
 /*website style for unordered lists*/
 
 /*home styles*/
-.homepage-container {
+.l-grid_homepage {
     padding-bottom: 40px;
 }
-.navigation-container-home {
+.pod_navigation {
     position: relative;
     top: 20px;
 }
-.backdrop-texture-home {
+.l-grid-pod_visual {
     background-image: url(../img/wenge.jpg);
     position: relative; 
     top: 65px;
     padding: 140px 0 148px 0;
 }
-.top-border-ilfordbjj-home {
+.pod_visual-topstyle {
     position: relative;
     top: 45px;
     width: 60em;
     border-style: solid;
     color:#ffffff;
 }
-.ILFORD-BRAZILIAN-JIU-JITSU-home {
+.pod_visual-content {
     text-align: center;
     font-size: 3.5rem;
     font-weight: lighter;
     color: #ffffff;
 }
-.bottom-border-ilfordbjj-home {
+.pod_visual-bottomstyle {
     position: relative;
     bottom: 45px;
     width: 60em;
     border-style: solid;
     color:#ffffff;
 }
-.teaching-formats-home {
+.pod_visual-formats {
     text-align: center;
     font-size: 2rem;
     color: #ff7f50;
     font-weight: lighter;
 }
-.inception-container-home {
+.l-grid-pod_flan {
     position: relative;
     top:130px;
     padding-bottom: 100px;
 }
-.BRAZILIAN-JIU-JITSU-home {
+.pod_flan-content {
     text-align: center;
     font-size: 3rem;
     color: #ff7f50;
     font-weight: lighter;
 }
-.bottom-border-bjiujitsu-home {
+.pod_flan-bottomestyle {
     box-align: center;
     width: 80px;
     border-style: solid;
@@ -148,7 +150,7 @@ li:before {
     position: relative;
     bottom: 40px;
 }
-.inception-content-home {
+.l-grid-pod_major {
     margin: 0 170px 0 170px;
     word-spacing: 0.01em;
     letter-spacing: 0.01em;
@@ -156,63 +158,63 @@ li:before {
     font-family: Arial, Helvetica, sans-serif;
     color: #778899;
 }
-.original-teachings-home {
+.pod_major-choclate {
     font-weight: bold;
 }
-.footer-home {
+.pod_belly {
     position: relative;
     bottom: 15px;
     margin: 0 100px 0 100px;
 }
-.footer-content-home {
+.l-grid_homefeet {
     padding: 10px 0 30px 0;
 }
 /*home styles end*/
 
 /*about styles*/
-.navigation-container-about {
+.l-grid-pod_chips {
     position: relative;
     top: 20px;
     padding-bottom: 80px;
 }
-.navigation-divider-about {
+.pod_ringside-champs {
     position: relative;
     bottom: 35px;
 }
-.school-introduction-about {
+.l-grid-pod_cola {
     position: relative;
     padding: 80x 0 40px 0;
 } 
-.who-we-are-about {
+.pod_cola-pops {
     color: #778899;
     text-align: center;
     font-size: 1.5rem;
 }
-.big-introduction-about {
+.pod_cola-cherry {
     text-align: center;
     color: #b6b5b5;
     font-weight: lighter;
 }
-.whos-school-about {
+.pod_cola-lemon {
     font-size: 4rem;
     text-align: center;
     font-weight: lighter;
     color: #ff7f50;
 }
-.big-style-about {
+.pod_cola-pink {
     border-style: solid;
     width: 80px;
     color: #deb887;
     position: relative;
     bottom: 20px;
 }
-.inspire-style-about {
+.pod_jammy-peanuts {
     position: relative;
     top: 550px;
     left: 520px;
     width: 500px;
 }
-.helio-boss-about {
+.pody_nosey-chocolate {
     float: left;
     width: 200px;
     height: 253px;
@@ -226,7 +228,7 @@ li:before {
     font-family: Arial, Helvetica, sans-serif;
     color: #778899;
 }
-.who-our-professor-is-about {
+.l-grid-pod_jammy {
     position: relative;
     top: 200px;
     line-height: 2;
@@ -236,12 +238,12 @@ li:before {
     color: #778899;
     margin: 0 100px 0 120px;
 }
-.inspiring-jiujitsu-about {
+.pod_jammy-toes {
     float: right;
     height: 450px;
     width: 500px;
 }
-.professional-title-about {
+.pod_jammy-winnie {
     color: #b6b5b5;
     font-size: 1.5rem;
     font-weight: lighter;
@@ -250,7 +252,7 @@ li:before {
     line-height: 0;
     font-family: 'Times New Roman', Times, serif;
 }
-.dave-birkett-about {
+.pod_jammy-tarp {
     font-size: 3rem;
     font-weight: lighter;
     color: #ff7f50;
@@ -259,7 +261,7 @@ li:before {
     line-height: 0;
     font-family: 'Times New Roman', Times, serif;
 }
-.more-style-about {
+.pod_jammy-crystal {
     width: 80px;
     border-style: solid;
     color: #deb887;
@@ -267,39 +269,39 @@ li:before {
     bottom: 15px;
     right: 40px;
 }
-.dave-history-about {
+.pod_jammy-tops {
     width: 462px;
     text-align: right;
 }
-.credentials-start-about {
+.pod_jammy-hope {
     width: 462px;
     text-align: right;
     font-family: 'Times New Roman', Times, serif
 }
-.coming-from-about {
+.pod_jammy-ok {
     color: #ff7f50;
     font-size: 1.5rem;
 }
-.dave-rank-about {
+.l-grid-pod_jammy-dunny {
     width: 462px;
 }
-.ranks-for-days-about {
+.pod_jammy-dunny {
     width:455px;
 }
-.white-to-black-belt-about {
+.l-grid-pod_bob {
     position: relative;
     top: 100px;
     padding-bottom: 300px;
 }
-.belt-about {
+.pod_rod {
     width:472px;
 }
-.blackbelt-promotion-about {
+.pod_gary {
     font-family: Arial, Helvetica, sans-serif;
     color: #778899;
     font-weight: lighter;
 }
-.second-in-command-about {
+.l-grid-pod_sticky {
     color: #778899;
     margin-left: 157px;
     line-height: 2;
@@ -307,14 +309,14 @@ li:before {
     word-spacing: 0.1em;
     font-family: Arial, Helvetica, sans-serif;
 }
-.coach-about {
+.pod_sticky-chocolate {
     color: #b6b5b5;
     font-size: 1.5rem;
     font-weight: lighter;
     font-family: 'Times New Roman', Times, serif;
     line-height: 1;
 }
-.kishy-about {
+.pod_sticky-corn {
     position: relative;
     top: 10px;
     font-size: 3rem;
@@ -322,7 +324,7 @@ li:before {
     color: #ff7f50;
     font-family: 'Times New Roman', Times, serif;
 }
-.extra-style-about {
+.pod_sticky-wow {
     width: 80px;
     border-style: solid;
     color: #deb887;
@@ -330,10 +332,10 @@ li:before {
     bottom: 5px;
     right: 260px;
 }
-.many-years-about {
+.pod_sticky-barbie {
     line-height: 1;
 }
-.assistant-coach-about {
+.pod_sticky-funny {
     position: relative;
     top: 10px;
     color: #778899;
@@ -343,17 +345,17 @@ li:before {
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
 }
-.experience-kishy-about {
+.pod_sticky-cars {
     line-height: 2;
 }
-.total-experience-about {
+.pod_sticky-joy {
     color: #ff7f50;
     font-size: 1.5rem;
 }
-.brazilian-jj-about {
+.pod_sticky-bey {
     line-height: 2;
 }
-.hosted-professors-about {
+.l-grid-pod_yes {
     position: relative;
     top: 130px;
     padding-bottom: 250px;
@@ -364,7 +366,7 @@ li:before {
     word-spacing: 0.1em;
     font-family: Arial, Helvetica, sans-serif;
 }
-.contact-box-about {
+.pod_yes-good {
     position: relative;
     bottom: 40px;
     height: 60px;
@@ -373,12 +375,12 @@ li:before {
     margin-left: 510px;
     padding: 3px;
 }
-.bottom-about {
+.pod_big {
     width: 230px;
     height: 200px;
     margin-left: 50px;
 }
-.check-the-stars-about {
+.l-grid-pod_fun {
     position: relative;
     top: 10px;
     letter-spacing: 0.01em;
@@ -387,56 +389,67 @@ li:before {
     font-size: medium;
     color: #778899;
 }
-.visitors-about {
+.pod_fun-carried {
     font-family: Arial, Helvetica, sans-serif;
 }
-.rickson-about {
+.pod_fun-done {
     margin-left: 90px;
 }
-.muricio-about {
+.pod_fun-start {
     margin-left: 113px;
 }
-.pedro-about {
+.pod_fun-go {
     margin-left: 100px;
 }
-.gui-about {
+.pod_fun-stop {
     margin-left: 130px;
 }
-.footer-about {
+.pod_fun-you {
     position: relative;
     top: 70px;
     margin: 0 100px 0 100px;
 }
-.nice-page-breaks-about {
+.pod_nosey-stretch {
     position: relative;
     top: 100px;
     right: 100px;
     align-content: center;
     margin: 0 100px 0 100px;
 }
-.footer-content-about {
+.l-grid-pod_myself {
     padding: 100px 0 30px 0;
 }
 /*about styles end*/
 
 /*timetable styles*/
-.navigation-container-timetable {
+.l-grid-pod_rare {
     position: relative;
     top: 20px;
     padding-bottom: 80px;
 }
-.navigation-divider-timetable {
+.pod_wake {
     position: relative;
     bottom: 35px;
 }
-.pretty-style-timetable {
+.pod_wake-up {
+    color: #778899;
+    text-align: center;
+}
+.pod_wake-down {
+    font-size: 4rem;
+    letter-spacing: 0.03em;
+    text-align: center;
+    font-weight: lighter;
+    color: #ff7f50;
+}
+.pod_wake-high {
     border-style: solid;
     width: 80px;
     color: #deb887;
     position: relative;
     bottom: 15px;
 }
-.all-levels-welcomed-timetable {
+.l-grid-pod_tender {
     padding-bottom: 15px;
     color: #778899;
     margin: 0 160px 0 172px ;
@@ -445,7 +458,7 @@ li:before {
     word-spacing: 0.1em;
     font-family: Arial, Helvetica, sans-serif;
 }
-.your-options-timetable {
+.l-grid-pod_table {
     padding-bottom: 80px;
     color: #778899;
     margin: 0 160px 0 172px ;
@@ -454,46 +467,24 @@ li:before {
     word-spacing: 0.1em;
     font-family: Arial, Helvetica, sans-serif;
 }
-.nice-page-breaks-timetable {
+.pod_table-leg {
+    font-size: 2rem;
+    font-weight: lighter;
+    color: #ff7f50;
+    width: 300px;
+    line-height: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.pod_table-stool {
+    font-weight: bold;
+}
+.l-grid-pod_ego {
     position: relative;
     top: 35px;
     padding-bottom: 60px;
     margin: 0 100px 0 100px;
 }
-.footer-content-timetable {
-    padding-bottom: 30px ;
-}
-.when-to-come-timetable {
-    color: #778899;
-    text-align: center;
-}
-.the-official-timetable {
-    font-size: 4rem;
-    letter-spacing: 0.03em;
-    text-align: center;
-    font-weight: lighter;
-    color: #ff7f50;
-}
-.details-time-place-timetable {
-    font-size: 2rem;
-    font-weight: lighter;
-    color: #ff7f50;
-    width: 300px;
-    line-height: 0;
-    font-family: 'Times New Roman', Times, serif;
-}
-.magic-dojo-timetable {
-    font-weight: bold;
-}
-.the-headquaters-official-timetable {
-    font-size: 2rem;
-    font-weight: lighter;
-    color: #ff7f50;
-    width: 300px;
-    line-height: 0;
-    font-family: 'Times New Roman', Times, serif;
-}
-.the-original-headquaters-timetable {
+.l-grid-pod_letter {
     color: #778899;
     margin: 0 160px 0 172px;
     line-height: 3;
@@ -501,24 +492,43 @@ li:before {
     word-spacing: 0.1em;
     font-family: Arial, Helvetica, sans-serif;
 }
-.dartford-web-timetable:link {
+.pod_letter {
+    font-size: 2rem;
+    font-weight: lighter;
+    color: #ff7f50;
+    width: 300px;
+    line-height: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.l-grid-pod_letter {
+    color: #778899;
+    margin: 0 160px 0 172px;
+    line-height: 3;
+    letter-spacing: 0.01em;
+    word-spacing: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pod_letter-opener:link {
     color: #ff7f50;
     text-decoration: underline;
 }
-.dartford-web-timetable:visited {
+.pod_letter-opener:visited {
     color: #db6e46;
+}
+.l-grid-pod_dance {
+    padding-bottom: 30px ;
 }
 /*timetable styles end*/
 
 /*pricelist styles*/
-.navigation-divider-pricelist {
-    position: relative;
-    bottom: 35px;
-}
-.navigation-container-pricelist {
+.l-grid-pod_drink {
     position: relative;
     top: 20px;
     padding-bottom: 80px;
+}
+.navigation-divider-pricelist {
+    position: relative;
+    bottom: 35px;
 }
 .lovely-style-pricelist {
     border-style: solid;
@@ -581,6 +591,19 @@ li:before {
     margin-left: 416px;
 }
 /*pricelist styles end*/
+
+/*contact styles*/
+.navigation-container-contact {
+    position: relative;
+    top: 20px;
+    padding-bottom: 80px;
+}
+.navigation-divider-contact {
+    position: relative;
+    bottom: 35px;
+}
+
+/*contact styles end*/
 
 
 
