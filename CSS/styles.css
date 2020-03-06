@@ -1,82 +1,73 @@
 /*website styles for website options navigation*/
-
-/* */
-.website-logo {
+.pod_navigation {
     color:#ff7f50; 
     font-size: 2rem;
     margin-left: 30px;
     font-weight: lighter;
 }
-.navigation-bar {
+.pod_navigation-bells {
     margin-left: 650px;
     word-spacing: 1.5em;
     font-size: 1.1rem;
     font-weight: lighter;
     letter-spacing: 0.01em;
 }
-.navigation-bar-buttons:link {
+.pod_navigation-piano:link {
     text-decoration: none;
     color: #000000;
 }
-.navigation-bar-buttons:visited {
+.pod_navigation-piano:visited {
     color: #000000;
 }
-.about-us {
+.pod_navigation-flute {
     word-spacing: 0.1em
 }
-.aboutus-timetable {
+.pod_navigation-banjo {
     margin-left: 1.5em;
 }
 /*top styles for page navigation end*/
 
 /*website styles for footer*/
-.page-copyrights {
+.pod_feet-style {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: #778899;
 }
-.webnode-builder {
+.pod_feet-shoe {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: #778899;
 }
-a.webnode:link {
+a.pod_feet-heel:link {
     text-decoration: underline;
     color: #778899;
 }
-a.webnode:visited {
+a.pod_feet-heel:visited {
     text-decoration: none;
     color: #778899;
 }
 /*website styles for footer end*/
 
 /*about & pricelist pages for 'contact' active box styles*/
-.link-contact {
+.pod_beans {
     text-align: center;
     font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0.01em;
 }
-a.contact:link {
+a.pod_beans-baked:link {
     text-decoration: none;
     color: #ffffff;
 }
-a.contact:active {
+a.pod_beans-baked:active {
     color: #ff7f50;
 }
-a.contact:hover {
+a.pod_beans-baked:hover {
     color: #ff7f50;
-}
-.contact-box {
-    height: 60px;
-    width: 240px;
-    background-color: #ff7f50;
-    margin-left: 510px;
-    padding: 3px;
 }
 /*about & pricelist pages for 'contact' active box styles*/
 
-/*website style for unordered lists*/
+/*website base style for unordered lists*/
 ul {
     list-style-type:none;
 }
@@ -95,7 +86,7 @@ li:before {
 .l-grid_homepage {
     padding-bottom: 40px;
 }
-.pod_navigation {
+.l-grid-pod_navigation {
     position: relative;
     top: 20px;
 }
@@ -526,82 +517,81 @@ li:before {
     top: 20px;
     padding-bottom: 80px;
 }
-.navigation-divider-pricelist {
+.pod_drink {
     position: relative;
     bottom: 35px;
 }
-.lovely-style-pricelist {
-    border-style: solid;
-    width: 80px;
-    color: #deb887;
-    position: relative;
-    bottom: 15px;
-}
-.the-big-show-pricelist {
+.l-grid-pod_jester {
     padding-bottom: 20px;
 }
-.starting-young-pricelist {
-    padding-bottom: 50px;
-    margin: 0 283px 0 283px;
-    font-size: 1.5rem;
-}
-.nice-page-breaks-pricelist {
-    padding: 50px 0 25px 0;
-    margin: 0 100px 0 100px;
-}
-.footer-content-pricelist {
-    padding-bottom: 30px;
-}
-.how-much-pricelist {
+.pod_jester {
     color: #778899;
     text-align: center;
 }
-.great-pricelist {
+.pod_jester-tree {
     font-size: 4rem;
     letter-spacing: 0.03em;
     text-align: center;
     font-weight: lighter;
     color: #ff7f50;
 }
-.juniors-pricelist {
+.pod_jester-trunk {
+    border-style: solid;
+    width: 80px;
+    color: #deb887;
+    position: relative;
+    bottom: 15px;
+}
+.l-grid-pod_hair {
+    padding-bottom: 50px;
+    margin: 0 283px 0 283px;
+    font-size: 1.5rem;
+}
+.pod_hair {
     font-size: 2.2rem;
     color: #ff8052;
 }
-.adults-pricelist {
+.pod_hair-curly {
+    margin-left: 555px;
+}
+.pod_hair-long {
     font-size: 2.2rem;
     color: coral;
 }
-.private-tuition-pricelist {
+.pod_hair-short {
+    margin-left: 541px;
+}
+.pod_hair-tie {
+    margin-left: 359px;
+}
+.pod_hair-dusty {
     font-size: 2.2rem;
     color: #ff7f50;
 }
-.money-5-pricelist {
-    margin-left: 555px;
-}
-.money-10-pricelist {
-    margin-left: 541px;
-}
-.money-20-pricelist {
-    margin-left: 359px;
-}
-.money-60-pricelist {
+.pod_hair-cut {
     margin-left: 490px;
 }
-.money-125-pricelist {
+.pod_hair-style {
     margin-left: 416px;
+}
+.l-grid-pod_nuts {
+    padding: 50px 0 25px 0;
+    margin: 0 100px 0 100px;
+}
+.l-grid-pod_bolts {
+    padding-bottom: 30px;
+}
+.l-grid-pod_beans {
+    height: 60px;
+    width: 240px;
+    background-color: #ff7f50;
+    margin-left: 510px;
+    padding: 3px;
 }
 /*pricelist styles end*/
 
 /*contact styles*/
-.navigation-container-contact {
-    position: relative;
-    top: 20px;
-    padding-bottom: 80px;
-}
-.navigation-divider-contact {
-    position: relative;
-    bottom: 35px;
-}
+
 
 /*contact styles end*/
 
