@@ -69,17 +69,19 @@ a.pod_beans-baked:hover {
 /*about & pricelist pages for 'contact' active box styles*/
 
 /*website base style for unordered lists*/
-ul {
+ul.pod-til {
     list-style-type:none;
 }
-li {
+li._till {
     text-indent: -40px;
     margin-left: 40px;
 }
-li:before {
+li._till:before {
     content: url(../img/right-arrow_16px.png);
     padding-right: 30px;
     color: #778899;
+    display: inline-table;
+    text-align: right;
 }
 /*website style for unordered lists*/
 
@@ -106,7 +108,7 @@ li:before {
     font-weight: lighter;
     color: #ffffff;
 }
-.pod_visual-bottomstyle {
+.pod_visual-bottom-style {
     position: relative;
     bottom: 45px;
     width: 60em;
@@ -130,7 +132,7 @@ li:before {
     color: #ff7f50;
     font-weight: lighter;
 }
-.pod_flan-bottomestyle {
+.pod_flan-bottom-style {
     box-align: center;
     width: 80px;
     border-style: solid;
@@ -139,7 +141,7 @@ li:before {
     bottom: 40px;
 }
 .l-grid-pod_major {
-    margin: 0 170px 0 170px;
+    margin: 0 170px;
     word-spacing: 0.01em;
     letter-spacing: 0.01em;
     line-height: 35px;
@@ -152,7 +154,7 @@ li:before {
 .pod_belly {
     position: relative;
     bottom: 15px;
-    margin: 0 100px 0 100px;
+    margin: 0 100px;
 }
 .l-grid_homefeet {
     padding: 10px 0 30px 0;
@@ -199,6 +201,11 @@ li:before {
     top: 550px;
     left: 520px;
     width: 500px;
+}
+.l-grid-pod_nosey::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 .pod_nosey-chocolate {
     float: left;
@@ -273,6 +280,7 @@ li:before {
 }
 .pod_jammy-dunny {
     width:455px;
+    list-style-type:none;
 }
 .l-grid-pod_bob {
     position: relative;
@@ -346,7 +354,7 @@ li:before {
     top: 130px;
     padding-bottom: 250px;
     color: #778899;
-    margin: 0 180px 0 180px;
+    margin: 0 180px;
     line-height: 2;
     letter-spacing: 0.01em;
     word-spacing: 0.1em;
@@ -400,7 +408,7 @@ li:before {
     top: 100px;
     right: 100px;
     align-content: center;
-    margin: 0 100px 0 100px;
+    margin: 0 100px;
 }
 .l-grid-pod_myself {
     padding: 100px 0 30px 0;
@@ -469,7 +477,7 @@ li:before {
     position: relative;
     top: 35px;
     padding-bottom: 60px;
-    margin: 0 100px 0 100px;
+    margin: 0 100px;
 }
 .l-grid-pod_letter {
     color: #778899;
@@ -538,7 +546,7 @@ li:before {
 }
 .l-grid-pod_hair {
     padding-bottom: 50px;
-    margin: 0 283px 0 283px;
+    margin: 0 283px;
     font-size: 1.5rem;
 }
 .pod_hair {
@@ -570,7 +578,7 @@ li:before {
 }
 .l-grid-pod_nuts {
     padding: 50px 0 25px 0;
-    margin: 0 100px 0 100px;
+    margin: 0 100px;
 }
 .l-grid-pod_bolts {
     padding-bottom: 30px;
@@ -708,7 +716,7 @@ iframe {
     padding-bottom: 70px;
 }
 .pod_highly {
-   margin: 0 135px 0 135px;
+   margin: 0 135px;
 }
 .pod_planet {
     color: #ff7f50;
