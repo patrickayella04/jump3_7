@@ -21,9 +21,15 @@
     font-size: 1.9rem;
     font-weight: lighter;
 }
+.pod_navigation ::after {
+    clear: both;
+}
 .pod_navigation-piano {
     float: left;
     padding: 23px 0 30px 33px;
+}
+.pod_navigation-piano::after {
+    clear: both;
 }
 
 /*top styles for page navigation end*/
@@ -761,9 +767,90 @@ iframe {
     font-size: 1rem;
     background-color: #f8f7f7;
 }
-
-
+._pod-bangler {
+    padding: 15px 25px;
+    position: relative;
+    top: 20px;
+    font-size: 1.2rem;
+    background-color: #ff7f50;
+    color: #ffffff;
+}
+.l-grid-pod_nutty {
+    padding: 50px 0 25px 0;
+    margin: 0 100px;
+}
+.l-grid-pod_alien {
+    padding-bottom: 25px;
+}
 /*contact styles end*/
+
+/*blog style start*/
+.l-grid-pod_vamp {
+    padding-bottom: 80px;
+}
+.l-grid_triangle {
+    padding-top: 37px;
+}
+.pod_box-wake {
+    color: #778899;
+    text-align: center;
+}
+.pod_box {
+    position: relative;
+    bottom: 35px;
+}
+.pod_box-down {
+    font-size: 4rem;
+    letter-spacing: 0.03em;
+    text-align: center;
+    font-weight: lighter;
+    color: #ff7f50;
+}
+.pod_box-high {
+    border-style: solid;
+    width: 80px;
+    color: #deb887;
+    position: relative;
+    bottom: 5px;
+}
+.l-grid_monkey-buisness {
+    display: flex;
+    flex-direction: column;
+}
+.l-grid_monkey-buisness {
+    margin: 100px 500px 100px 150px;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    color: #778899;
+}
+._pencil {
+    color: #ff7f50;
+}
+._roge {
+    position: relative;
+    bottom: 20px;
+}
+._monkey-paper, ._monkey-pencil, 
+._monkey-board, ._monkey-glue,
+._monkey-tape, ._monkey-chair,
+._monkey-door, ._monkey-note,
+._monkey-top, ._monkey-screen {
+    position: relative;
+    bottom: 20px;
+}
+._pencil-top {
+    color: #ff7f50;
+}
+.pecil-top:visited {
+    color: #ff7f50;
+}
+._pencil-world {
+    color: #778899;
+}
+._pencil-world:visited {
+    color: #778899;
+}
+/*blog style end*/
 
 
 
