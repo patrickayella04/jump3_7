@@ -6,9 +6,13 @@
 }
 .pod_navigation-piano:link {
     text-decoration: none;
-    color: black;
+    color: hsl(0, 0%, 0%);
     font-size: 1.1rem;
     letter-spacing: 0.03em;
+    outline: none;
+}
+.pod_navigation-piano:visited {
+    color: #000000;
 }
 .pod_navigation {
     float:left;
@@ -48,6 +52,7 @@
 a.pod_feet-heel:link {
     text-decoration: underline;
     color: #778899;
+    outline: none;
 }
 a.pod_feet-heel:visited {
     text-decoration: none;
@@ -65,10 +70,15 @@ a.pod_feet-heel:visited {
 a.pod_beans-baked:link {
     text-decoration: none;
     color: #ffffff;
+    outline: none;
+}
+a.pod_beans-baked {
+    color: #ffffff;
 }
 a.pod_beans-baked:active {
     color: #ff7f50;
 }
+
 a.pod_beans-baked:hover {
     color: #ff7f50;
 }
@@ -77,6 +87,7 @@ a.pod_beans-baked:hover {
 /*website base style for unordered lists*/
 ul.pod-til {
     list-style-type:none;
+    list-style-position: outside;
 }
 li._till {
     text-indent: -40px;
@@ -139,7 +150,6 @@ li._till:before {
     font-weight: lighter;
 }
 .pod_flan-bottom-style {
-    box-align: center;
     width: 80px;
     border-style: solid;
     color: #deb887;
@@ -222,7 +232,7 @@ li._till:before {
 .pod_nosey-smell {
     margin: 0 100px 0 330px;
     line-height: 2;
-    letter-spacing: 0.01;
+    letter-spacing: 0.01em;
     word-spacing: 0.1em;
     font-family: Arial, Helvetica, sans-serif;
     color: #778899;
@@ -512,6 +522,7 @@ li._till:before {
 .pod_letter-opener:link {
     color: #ff7f50;
     text-decoration: underline;
+    outline: none;
 }
 .pod_letter-opener:visited {
     color: #db6e46;
@@ -649,12 +660,12 @@ iframe {
 ._pancakes {
     list-style-type: none;
     padding-bottom: 20px;
-    vertical-align: auto;
+    
 }
 ._pancakes:before {
     content:url(../img/pin_4.png);
-    display: inline-table;
-    text-indent: 2px; 
+    position: relative;
+    right: 15px;
 }
 ._hashbrowns {
     color: #778899;
@@ -662,16 +673,16 @@ iframe {
     font-family: Arial, Helvetica, sans-serif ;
     list-style-type: none;
     padding: 20px 0 15px 0;
-    margin-left: 18px;
+    margin-left: 22px;
 }
 ._ketchup {
     list-style-type: none;
-    padding: 10px 0 25px 0
+    padding: 10px 0 25px 0;
 }
 ._ketchup:before {
     content: url(../img/call_24px.png);
-    display: inline-table;
-    text-indent: 2px;
+    position: relative;
+    right: 15px;
 }
 ._bread {
     list-style-type: none;
@@ -679,11 +690,13 @@ iframe {
 }
 ._bread:before {
     content: url(../img/mail_24px.png);
-    display: inline-table;
-    text-indent: 2px;
+    position: relative;
+    right: 15px;
+
 }
 ._toast-up:link {
     color: #000000;
+    outline: none;
 }
 ._toast-up:active {
     color: #ff7f50;
@@ -700,8 +713,8 @@ iframe {
 }
 ._toast:before {
     content: url(../img/info_24px.png);
-    display: inline-table;
-    text-indent: 2px;
+    position: relative;
+    right: 15px;
 }
 ._juice {
     list-style-type: none;
@@ -709,16 +722,16 @@ iframe {
 }
 ._juice:before {
     content: url(../img/facebook_24px.png);
-    display: inline-table;
-    text-indent: 2px;
+    position: relative;
+    right: 15px;
 }
 ._coffee {
     list-style-type: none;
 }
 ._coffee:before {
     content: url(../img/twitter_24px.png);
-    display: inline-table;
-    text-indent: 2px;
+    position: relative;
+    right: 15px;
     padding-bottom: 70px;
 }
 .pod_highly {
@@ -839,13 +852,19 @@ iframe {
     bottom: 20px;
 }
 ._pencil-top {
-    color: #ff7f50;
+    color: #ff7f50
+}
+._pencil-top:link {
+    outline: none;
 }
 .pecil-top:visited {
     color: #ff7f50;
 }
 ._pencil-world {
     color: #778899;
+}
+._pencil-world:link {
+    outline: none;
 }
 ._pencil-world:visited {
     color: #778899;
