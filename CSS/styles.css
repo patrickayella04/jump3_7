@@ -6,7 +6,7 @@
 }
 .pod_navigation-piano:link {
     text-decoration: none;
-    color: hsl(0, 0%, 0%);
+    color: #000000;
     font-size: 1.1rem;
     letter-spacing: 0.03em;
     outline: none;
@@ -37,6 +37,8 @@
 }
 
 /*top styles for page navigation end*/
+
+
 
 /*website styles for footer*/
 .pod_feet-style {
@@ -101,8 +103,53 @@ li._till:before {
     text-align: right;
 }
 /*website style for unordered lists*/
+/*media queiry*/
+
+
+@media (width: 768px)  {
+    .l-grid_homefeet {
+        position: relative;
+        left: 190px;
+    }
+    .l-grid_homepage {
+        position: relative;
+        left: 190px;
+    }
+    .pod_belly {
+        position: relative;
+        left: 190px;
+    }
+    
+    .pod_navigation-piano  {
+        float: none;
+        text-align: center;
+        
+    }
+    .pod_navigation-violin {
+        margin-left: 65px;
+        position: relative;
+        bottom: 20px;
+        top: 20px;
+    }
+    .pod_navigation {
+        margin-left: 270px;
+    }
+}
+@media (width: 768px)  {
+
+    .pod_navigation-violin {
+
+    }
+
+}
+
+/*media queiry*/
+
+
+
 
 /*home styles*/
+
 .l-grid_homepage {
     padding-bottom: 40px;
 }

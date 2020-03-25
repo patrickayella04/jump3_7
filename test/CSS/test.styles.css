@@ -1,0 +1,48 @@
+/*.pod_navigation {
+    color:#ff7f50; 
+    font-size: 2rem;
+    margin-left: 30px;
+    font-weight: lighter;
+}
+.pod_navigation-bells {
+    margin-left: 650px;
+    word-spacing: 1.5em;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    letter-spacing: 0.01em;
+}*/
+.pod_navigation-violin {
+    list-style-type: none;
+    position: relative;
+    top: 10px;
+}
+.pod_navigation-piano:link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    letter-spacing: 0.03em;
+}
+.pod_navigation {
+    float:left;
+    position: relative;
+    bottom: 10px;
+    left: 20px;
+    padding: 0 640px 0 0;
+    text-decoration: none;
+    color:#ff7f50; 
+    font-size: 1.9rem;
+    font-weight: lighter;
+}
+.pod_navigation-piano {
+    float: left;
+    padding: 23px 0 30px 33px;
+}
+
+
+/*
+.pod_navigation-flute {
+    word-spacing: 0.1em
+}
+.pod_navigation-banjo {
+    margin-left: 1.5em;
+}
