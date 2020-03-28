@@ -244,23 +244,133 @@ div .table-row {
     margin-top: 20px;
     
 }
+/*contact us*/
+.map iframe {
+    position: relative;
+    left: 120px;
+    
+    float: left;
+}
+div .map {
+    width: 58%;
+    
 
+}
+div .sign {
+    
+    width: 25%;
+    float: right;
+    position: relative;
+    right: 110px;
+    
+}
 
+/*faq - book us*/
+div .hanger {
+    float:right;
+    width: 35%;
+    position: relative;
+    right: 90px;
+    
 
+}
+div .faq {
+    width: 30%;
+    
+    float: left;
+}
+div .faq .wow {
+    padding-left: 110px;
+    
+}
+div .house {
+    float: right;
+    padding-right: 100px;
+    
+}
+div .boxes {
+    min-height: 750px;
+    margin-top: 500px;
+    
+}
 
+/*links*/
+div .map ul {
+    text-indent: 20px;
+}
+._hashbrowns {
+    list-style-type: none;
+    list-style-position: outside;
+}
 
+._pancakes {
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: url(../img/pin_4.png);
+}
+._ketchup {
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: url(../img/call_24px.png);
+}
+._bread {
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: url(../img/mail_24px.png);
+}
+._toast-up:link {
+    color: #000000;
+    outline: none;
+}
+._toast-up:active {
+    color: #ff7f50;
+}
+._toast-up:hover {
+    color: #ff7f50;
+}
+._toast-up:visited {
+    color: #ff7f50;
+}
+._toast {
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: url(../img/info_24px.png);
+}
+._juice {
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: url(../img/facebook_24px.png);
+}
 
+._coffee {
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: url(../img/twitter_24px.png);
+}
 
-
+/*inputs*/
+._pod-strangler, ._pod-sandler, ._pod-tangler, ._pod-handler {
+    width: 100%;
+    padding: 20px 0 20px 0;
+}
+._pod-bangler {
+    padding: 15px 25px;
+    position: relative;
+    top: 20px;
+    font-size: 1.2rem;
+    background-color: #ff7f50;
+    color: #ffffff;
+}
 
 /*media queries*/
 
-@media only screen and (min-width: 768px) and (max-width: 1024px){
+@media only screen and (min-width: 765px) and (max-width: 1027px){
     div .branding, header li, header nav, 
     div .title-decoration, div .page-title, 
     div .box-visitors, div .box-2, div .box, div .box-2, 
     div .experience-box h3.prefix, 
-    h1.name, h2.mat-time, .first-class, .about-dave, div .show-me, div .tell-more {
+    h1.name, h2.mat-time, .first-class, 
+    .about-dave, div .show-me, div .tell-more  {
         float: none;
         text-align: center;
         width: 100%;
@@ -279,7 +389,41 @@ div .table-row {
         padding: 0;
         text-align: left;
     }
-     
+    /*contact us*/
+    .map iframe, div map {
+        position: relative;
+        left: 0;
+        float: none;
+        width: 100%;
+    }
+    div .sign {
+        float: left;
+        position: relative;
+        right: 0;
+        margin-top: 30px;
+    }
+    div .hanger {
+        float: left;
+        width: 100%;
+        position: relative;
+        right: 0;
+        margin-top: 90px;
+    }
+    div .faq, div .faq .wow, div .map {
+        float: none;
+        width: 100%;
+        padding-left: 0;
+    }
+    div .boxes {
+        margin-top: 370px;
+        margin-bottom: 120px;
+        
+    }
+   
+    div .sign, div .map, div .boxes {
+        padding-left: 17px;
+        width: 96%;
+    }
     
 }
 @media only screen and (min-width: 320px) and (max-width: 767px) {
@@ -288,7 +432,9 @@ div .table-row {
     section div.main, div .box-visitors, div .box-2, 
     div .box, div .box-2, 
     div .experience-box h3.prefix, h1.name,
-    h2.mat-time, .first-class, .about-dave, div .show-me, div .tell-more {
+    h2.mat-time, .first-class, .about-dave, div .show-me,
+     div .tell-more
+       {
         float: none;
         text-align: center;
         width: 100%;
@@ -341,6 +487,47 @@ div .table-row {
     }
     div .types {
         padding-bottom: 30px;
+    }
+    /*contact us*/
+    div .hanger {
+        float: left;
+        width: 100%;
+        position: relative;
+        right: 0;
+    }
+    .map iframe, div map {
+        position: relative;
+        left: 0;
+        float: none;
+        width: 100%;
+    }
+    div .sign {
+        float: left;
+        position: relative;
+        right: 0;
+    
+    }
+    div .hanger {
+        float: left;
+        width: 100%;
+        position: relative;
+        right: 0;
+        margin-top: 90px;
+    }
+    div .faq, div .faq .wow, div .map {
+        float: none;
+        width: 100%;
+        padding-left: 0;
+    }
+    div .boxes {
+        margin-top: 370px;
+        margin-bottom: 100px;
+    }
+    
+
+    div .sign, div .map, div .boxes {
+        padding-left: 15px;
+        width: 93%;
     }
 }
 
