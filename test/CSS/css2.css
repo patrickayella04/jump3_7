@@ -5,32 +5,24 @@ body {
     margin:0;
     background-color: #d3d3d3;
 }
-
 /*Globle - can be used anywhere on this site*/
 .container {
     width: 95%;
     margin:auto;
     overflow: hidden;
 }
-
 /*Header*/
 ul .nav_head {
     margin: 0;
     padding:0;
 }
 header {
-    background-color: #87cefa;
+    background-color: #000000;
     color: coral;
     padding-top: 30px;
     min-height: 70px;
     border-bottom: #a9a9a9 3px solid;
 }
-/*-just see if the is not needed later but keep it for now- check ul globle-  
-header ul {
-    margin: 0;
-    padding:0;
-}*/
-
 header a {
     color: #ffffff;
     text-decoration: none;
@@ -42,13 +34,13 @@ header li {
     padding: 0 20px 0 20px
 }
 div .branding {
-    float:left;
+    float: left;
 }
 div .branding h1 {
     margin:0px;
 }
 header nav {
-    float:right;
+    float: right;
     margin-top: 5px;
 }
 /*Showcase*/
@@ -67,7 +59,6 @@ header nav {
 .showcase p {
     font-size: 1.5rem;
 }
-
 /*main*/
 div.container_main {
     width: 63%;
@@ -91,9 +82,7 @@ article ul ._till {
     list-style-image: url(../img/right-arrow_16px.png);
     line-height: 2.5;
 }
-
 /*footer*/
-
 footer {
     padding: 35px;
     margin-top: 35px;
@@ -101,9 +90,6 @@ footer {
     text-align: center;
     border-top: maroon solid;
 }
-
-/* footer */
-
 /*about - main*/
 .about-school {
     margin-top: 40px;
@@ -122,7 +108,6 @@ div.explain-box {
     width: 50% ;
     padding-left: 330px;
     margin-top: 70px;
-
 }
 /*section*/
 .about-dave {
@@ -152,7 +137,6 @@ div .tell-more {
     padding-left: 82px;
     margin-top: 80px;
 }
-
 div .we-host {
     width: 63%;
     margin: auto;
@@ -186,8 +170,6 @@ a.pod_beans-baked:active {
 a.pod_beans-baked:hover {
     color: #ff7f50;
 }
-
-
 /*section*/
 .visitors {
     margin-top: 40px ;
@@ -203,7 +185,6 @@ div .box-visitors img {
 }
 div .we-saw {
     padding: 0 82px 0 82px;
-    
 }
 /*Timetable*/
 div .when-where {
@@ -237,7 +218,6 @@ div .size, .types {
 }
 div .table-row {
     margin-top: 20px;
-    
 }
 /*contact us*/
 div .map, div .sign, div .hanger, div .faq, div .boxes {
@@ -254,7 +234,6 @@ div .sign {
     width: 35%;
     float: right;
 }
-
 /*faq - book us*/
 div .hanger {
     float:right;
@@ -270,12 +249,10 @@ div .faq {
 div .faq .wow {
     padding-left: 50px;
 }
-
 div .boxes {
     min-height: 760px;
     margin-top: 750px;
 }
-
 /*links*/
 div .sign ul {
     text-indent: 20px;
@@ -324,13 +301,11 @@ div .sign ul {
     list-style-position: outside;
     list-style-image: url(../img/facebook_24px.png);
 }
-
 ._coffee {
     list-style-type: none;
     list-style-position: outside;
     list-style-image: url(../img/twitter_24px.png);
 }
-
 /*inputs*/
 ._pod-strangler, ._pod-sandler, ._pod-tangler, ._pod-handler {
     width: 100%;
@@ -372,7 +347,6 @@ div .blog-wrap {
 div .main-article, .second-main {
     width: 85%;
     margin: auto;
-    
 }
 div .main-article {
     padding-bottom: 120px;
@@ -380,9 +354,6 @@ div .main-article {
 div .second-main {
     padding-top: 50px;
 }
-
-
-
 /*media queries*/
 
 @media only screen and (min-width: 765px) and (max-width: 1027px){
@@ -422,7 +393,6 @@ div .second-main {
     div .faq .wow, div .faq {
         width: 100%;
         padding-left: 0;
-        
     }
     div .hanger {
         float: left;
@@ -430,7 +400,6 @@ div .second-main {
         position: relative;
         right: 0;
         margin-top: 90px;
-
     }
     div .map, div .sign {
         float: none;
@@ -445,7 +414,6 @@ div .second-main {
         padding-top: 20px;
         margin-bottom: 120px;
     }
-    
     /*blog,   */
     div .blog-wrap {
         float: none;
@@ -463,8 +431,6 @@ div .second-main {
     div .second-main {
         padding-top: 20px;
     }
-
-    
 }
 @media only screen and (min-width: 320px) and (max-width: 767px) {
     div .branding, header li, header nav, 
@@ -561,7 +527,6 @@ div .second-main {
         margin-top: 10px;
         padding-top: 20px;
         margin-bottom: 120px;
-        
     }
     /*blog, */
     div .blog-wrap {
