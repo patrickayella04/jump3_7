@@ -368,6 +368,18 @@ div .blog-wrap {
 ._pencil-world:visited {
     color: #778899;
 }
+/*timetable*/
+div .main-article, .second-main {
+    width: 85%;
+    margin: auto;
+    
+}
+div .main-article {
+    padding-bottom: 120px;
+}
+div .second-main {
+    padding-top: 50px;
+}
 
 
 
@@ -432,7 +444,6 @@ div .blog-wrap {
         margin-top: 10px;
         padding-top: 20px;
         margin-bottom: 120px;
-        
     }
     
     /*blog,   */
@@ -440,6 +451,17 @@ div .blog-wrap {
         float: none;
         width: 95%;
         padding: 0;
+    }
+    /*timetable*/
+    div .main-article, .second-main {
+        width: 97%;
+        margin: auto;
+    }
+    div .main-article {
+        padding-bottom: 90px;
+    }
+    div .second-main {
+        padding-top: 20px;
     }
 
     
@@ -547,6 +569,17 @@ div .blog-wrap {
         width: 95%;
         margin: auto;
         padding: 0;
+    }
+    /*timetable*/
+    div .main-article, .second-main {
+        width: 97%;
+        margin: auto;
+    }
+    div .main-article {
+        padding-bottom: 90px;
+    }
+    div .second-main {
+        padding-top: 20px;
     }
 }
 
