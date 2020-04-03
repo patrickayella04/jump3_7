@@ -1,9 +1,9 @@
 body {
-    font: 1rem/1.5 'Times New Roman', Times, serif ;
+    font: 1.1rem/1.4 'Times New Roman', Times, serif;
+    color: #778899;
     font-weight: lighter;
     padding:0;
     margin:0;
-    background-color: #d3d3d3;
 }
 /*Globle - can be used anywhere on this site*/
 .container {
@@ -17,16 +17,16 @@ ul .nav_head {
     padding:0;
 }
 header {
-    background-color: #000000;
-    color: coral;
+    color: rgb(207, 94, 94);
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: #a9a9a9 3px solid;
+    border-bottom: lightgray 1px solid;
 }
 header a {
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
     font-size: 16px;
+    outline: none;
 }
 header li {
     float: left;
@@ -38,26 +38,35 @@ div .branding {
 }
 div .branding h1 {
     margin:0px;
+    font-weight: lighter;
 }
 header nav {
     float: right;
-    margin-top: 5px;
 }
 /*Showcase*/
 .showcase {
-    min-height: 530px;
+    min-height: 500px;
     background: url(../img/BJJwebpagepic.jpg) no-repeat 0 -100px;
     text-align: center;
-    color: #dc143c;
+    color: rgb(207, 94, 94);
+}
+div .big-show {
+    width: 75%;
+    margin: auto;
 }
 .showcase h1 {
     margin-top: 200px;
     font-size: 3.5rem;
     margin-bottom: 10px;
-    color: #ffffff
+    color: #ffffff;
+    border-bottom: #ffffff solid 2px;
+    border-top: #ffffff solid 2px;
+    font-weight: lighter;
 }
 .showcase p {
     font-size: 1.5rem;
+    position: relative;
+    bottom: 20px;
 }
 /*main*/
 div.container_main {
@@ -73,8 +82,18 @@ div .title-decoration {
     text-align: center;
     font-size: 3rem;
     position: relative;
-    top: 30px;
-    font-family:'Times New Roman', Times, serif ;
+    top: 65px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(207, 94, 94);
+}
+div .mini-dec {
+    position: relative;
+    bottom: 65px;
+    width: 9%;
+    padding: 1px;
+    background-color: #fca07f;
+    border-style: solid;
+    color: #fca07f;
 }
 article ul ._till {
     list-style-position: outside;
@@ -82,44 +101,108 @@ article ul ._till {
     list-style-image: url(../img/right-arrow_16px.png);
     line-height: 2.5;
 }
+.pod_major-choclate {
+    font-weight: bold;
+}
 /*footer*/
 footer {
     padding: 35px;
     margin-top: 35px;
-    background-color: violet;
     text-align: center;
-    border-top: maroon solid;
+    border-top: lightgray 1px solid;
+    width: 77%;
+    margin: auto;
+}
+a.pod_feet-heel:link {
+    text-decoration: underline;
+    color: #778899;
+    outline: none;
+}
+a.pod_feet-heel:visited {
+    text-decoration: none;
+    color: #778899;
 }
 /*about - main*/
 .about-school {
-    margin-top: 40px;
+    margin-top: 20px;
 }
-section h3.hello, h1.intro {
+section h3.hello, p.intro {
     text-align: center;
+    font-weight: lighter;
+}
+section h3.hello {
+    position: relative;
+    top:10px;
+}
+section.about-helio {
+    border-bottom:  lightgray 1px solid;
+    width: 77%;
+    margin: auto;
+    position: relative;
+    bottom: 130px;
+    padding-bottom: 120px;
+}
+.about-school p.intro {
+    color: rgb(207, 94, 94);
+    font-size: 3.7rem;
+    position: relative;
+    bottom: 50px;
+}
+div .mini-deco {
+    width: 5%;
+    padding: 1px;
+    background-color: #fca07f;
+    border-style: solid;
+    color: #fca07f;
+    position: relative;
+    bottom: 110px;
 }
 div .box {
     float:left;
-    padding-left: 80px ;
 }
 div .box img {
-    width: 165px;
+    width: 170px;
 }
 div.explain-box {
-    width: 50% ;
-    padding-left: 330px;
+    padding-left: 250px;
     margin-top: 70px;
 }
 /*section*/
-.about-dave {
-    margin-top: 140px;
+div p.name {
+    color: rgb(207, 94, 94);
+    font-size: 2.3rem;
+    position: relative;
+    bottom: 30px;
+}
+div .dave-deco {
+    width: 14%;
+    padding: 1px;
+    background-color: #fca07f;
+    border-style: solid;
+    color: #fca07f;
+    position: relative;
+    left: 50px; 
+    bottom: 65px; 
+}
+h2.mat-time {
+    color: rgb(207, 94, 94);
+    font-weight: lighter;
+}
+.first-class {
+    position: relative;
+    bottom: 40px;
 }
 div .box-2 {
+    position: relative;
+    right: 105px;
     float: right;
+    padding-bottom: 70px;
+    border-bottom:  lightgray 1px solid;
 }
-div .box-2 {
-    padding-right: 105px;
+div .experience-box h3.prefix{
+    font-weight: lighter;
 }
-div .experience-box h3.prefix, h1.name, h2.mat-time, .first-class{
+div .experience-box h3.prefix, p.name, h2.mat-time, .first-class{
     text-align: right;
 }
 div .experience-box {
@@ -133,9 +216,40 @@ div .show-me {
 }
 /*section*/
 div .tell-more {
-    width: 40%;
     padding-left: 82px;
     margin-top: 80px;
+}
+hr.flying-border {
+    border: 0;
+    height: 0;
+    border-top: 1px solid lightgrey;
+    position: relative;
+    right: 100px;
+    bottom: 140px;
+    width: 40%;
+    float: right;
+}
+div .tell-more .time {
+    color: rgb(207, 94, 94);
+}
+div .tell-more .his-name {
+    color: rgb(207, 94, 94);
+    font-size: 2.3rem;
+    position: relative;
+    bottom: 30px;
+}
+div .tell-more .kish-deco {
+    width: 6%;
+    padding: 1px;
+    background-color: #fca07f;
+    border-style: solid;
+    color: #fca07f;
+    position: relative;
+    right: 330px;
+    bottom: 60px;
+}
+div .tell-more h3 {
+    font-weight: lighter;
 }
 div .we-host {
     width: 63%;
@@ -166,7 +280,6 @@ a.pod_beans-baked {
 a.pod_beans-baked:active {
     color: #ff7f50;
 }
-
 a.pod_beans-baked:hover {
     color: #ff7f50;
 }
@@ -186,42 +299,27 @@ div .box-visitors img {
 div .we-saw {
     padding: 0 82px 0 82px;
 }
-/*Timetable*/
-div .when-where {
-    width: 63%;
-    margin: auto;
+/*contact us page*/
+.about-contact p.outtro {
+    color: rgb(207, 94, 94);
+    font-size: 3.7rem;
 }
-div .head-quarters {
-    width: 63%;
-    margin: auto;
-    margin-top: 130px;
-    margin-bottom: 60px;
+section h3.goodbye {
+    position: relative;
+    top: 50px;
 }
-.pod_letter-opener:link {
-    color: #ff7f50;
-    text-decoration: underline;
-    outline: none;
+div .contact-deco {
+    width: 5%;
+    padding: 1px;
+    background-color: #fca07f;
+    border-style: solid;
+    color: #fca07f;
+    position: relative;
+    bottom: 60px;
 }
-.pod_letter-opener:visited {
-    color: #db6e46;
-}
-div .table {
-    width: 63%;
-    margin: auto;
-}
-div .money {
-    float:right;
-}
-div .size, .types {
-    border-bottom: 1px solid grey;
-    padding-bottom: 40px;
-}
-div .table-row {
-    margin-top: 20px;
-}
-/*contact us*/
-div .map, div .sign, div .hanger, div .faq, div .boxes {
-    
+section h3.goodbye, p.outtro {
+    text-align: center;
+    font-weight: lighter;
 }
 .map iframe {
     padding-left: 60px;
@@ -234,7 +332,7 @@ div .sign {
     width: 35%;
     float: right;
 }
-/*faq - book us*/
+/*faq - book contact us*/
 div .hanger {
     float:right;
     width: 35%;
@@ -242,9 +340,17 @@ div .hanger {
     right: 90px;
     padding-bottom: 50px;
 }
+div.hanger h2 {
+    color: rgb(207, 94, 94);
+}
+div.hanger h3 {
+    font-weight: lighter;
+}
+
 div .faq {
     width: 30%;
     float: left;
+    color: rgb(207, 94, 94); ;
 }
 div .faq .wow {
     padding-left: 50px;
@@ -253,7 +359,7 @@ div .boxes {
     min-height: 760px;
     margin-top: 750px;
 }
-/*links*/
+/*links-conatact*/
 div .sign ul {
     text-indent: 20px;
     font-size: large;
@@ -306,10 +412,14 @@ div .sign ul {
     list-style-position: outside;
     list-style-image: url(../img/twitter_24px.png);
 }
-/*inputs*/
+/*inputs-contact*/
 ._pod-strangler, ._pod-sandler, ._pod-tangler, ._pod-handler {
     width: 100%;
     padding: 20px 0 20px 0;
+}
+._pod-wrangler, ._pod-spangler, ._pod-dangler {
+    font-weight: bold;
+    color: #000000;
 }
 ._pod-bangler {
     padding: 15px 25px;
@@ -320,19 +430,40 @@ div .sign ul {
     color: #ffffff;
 }
 /*blog page*/
+a.pod_feet-heel:link {
+    text-decoration: underline;
+    color: #778899;
+    outline: none;
+}
+a.pod_feet-heel:visited {
+    text-decoration: none;
+    color: #778899;
+}
 div .blog-wrap {
-    width: 80%;
-    margin: auto;
+    padding-left: 180px;
+    padding-right: 500px;
     margin-bottom: 150px;
 }
+div .blog-wrap h2 {
+    font-size: xx-large;
+    font-weight: lighter;
+}
+div ._roge, ._monkey-tape {
+    position: relative;
+    bottom: 25px;
+}
 ._pencil-top {
-    color: #ff7f50
+    color: rgb(207, 94, 94);
 }
 ._pencil-top:link {
     outline: none;
+    text-decoration: none;
+}
+._pencil-top:hover {
+    text-decoration: solid 1px underline;
 }
 .pecil-top:visited {
-    color: #ff7f50;
+    color: rgb(207, 94, 94);
 }
 ._pencil-world {
     color: #778899;
@@ -344,29 +475,120 @@ div .blog-wrap {
     color: #778899;
 }
 /*timetable*/
+.price-deco {
+    width: 6%;
+    color: coral;
+    border: 2px solid;
+    position: relative;
+    bottom: 50px;
+}
+.our-place {
+    margin-top: 40px;
+    text-align: center;
+    font-weight: lighter;
+    color: rgb(207, 94, 94);
+    font-size: 3.7rem;
+}
+div .main-article .time-title, .second-main .time-title {
+    color: rgb(207, 94, 94);
+}
 div .main-article, .second-main {
-    width: 85%;
+    width: 70%;
     margin: auto;
 }
 div .main-article {
-    padding-bottom: 120px;
+    padding-bottom: 80px;
 }
 div .second-main {
-    padding-top: 50px;
+    padding: 50px 0 50px 0;
 }
+div .time-deco {
+    color: #fca07f;
+    background-color:  #fca07f;
+    padding: 2px;
+    border: thin;
+    width: 8%;
+    position: relative;
+    bottom: 60px;
+}
+.pod_letter-opener:link {
+    color: #ff7f50;
+    text-decoration: underline;
+    outline: none;
+}
+.pod_letter-opener:visited {
+    color: #db6e46;
+}
+hr.divider-time {
+    border: 0;
+    height: 0;
+    border-top: 1px lightgrey solid;
+    position: relative;
+    bottom: 13px;
+    width: 83%;
+}
+section.time-section {
+    position: relative;
+    bottom: 50px;
+}
+/*price-list*/
+
+div .when-where {
+    width: 63%;
+    margin: auto;
+}
+div .head-quarters {
+    width: 63%;
+    margin: auto;
+    margin-top: 130px;
+    margin-bottom: 60px;
+}
+.pod_letter-opener:link {
+    color: #ff7f50;
+    text-decoration: underline;
+    outline: none;
+}
+.pod_letter-opener:visited {
+    color: #db6e46;
+}
+div .table {
+    width: 50%;
+    margin: auto;
+}
+div .money {
+    float:right;
+}
+div .money, .size, .no-deco {
+    font-size: 1.5rem;
+    color: #000000;
+}
+div .size, .types {
+    border-bottom: 1px solid grey;
+    padding-bottom: 40px;
+}
+div .table-row {
+    margin-top: 20px;
+}
+.about-price {
+    margin-bottom: 60px;
+    margin-top: 80px
+}
+div .types {
+    color: rgb(207, 94, 94);
+}
+
 /*media queries*/
 
 @media only screen and (min-width: 765px) and (max-width: 1027px){
     div .branding, header li, header nav, 
     div .title-decoration, div .page-title, 
-    div .box-visitors, div .box-2, div .box, div .box-2, 
-    div .experience-box h3.prefix, 
-    h1.name, h2.mat-time, .first-class, 
-    .about-dave, div .show-me, div .tell-more  {
+    .about-dave  {
         float: none;
         text-align: center;
         width: 100%;
         padding: 0;
+        position: relative;
+        right: 0;
     }
     header {
         padding-bottom: 10px;
@@ -374,12 +596,74 @@ div .second-main {
     .showcase h1 {
         margin-top: 110px;
     }
+    header li {
+        padding: 0 25px 0 25px
+    }
     /* about*/
-    div .experience-box, div.explain-box {
+    div .experience-box  {
         float: none;
-        width: 100%;
+        width: 50%;
         padding: 0;
         text-align: left;
+    }
+    section.about-helio {
+        width: 93%;
+        margin: auto;
+    }
+    div .explain-box {
+        padding-left: 180px;
+    }
+    div .box img {
+        width: 125px;
+    }
+    div .box-2 img {
+        width: 100%;
+        height: 300px;
+    }
+    div .box-2 {
+        position: relative;
+        right: 0;
+        width: 45%;
+    }
+    div .show-me {
+        padding-left: 0;
+        width: 50%;
+    }
+    div .show-me img {
+        width: 100% ;
+        height: 260px;
+    }
+    div .tell-more {
+        padding-left: 0;
+    }
+    div .flying-border {
+        position: relative;
+        right: 10px;
+    }
+    div .tell-more .kish-deco {
+        position: relative;
+        right: 190px;
+        width: 10%;
+    }
+    div .we-host {
+        width: 100%;
+        margin-top: 40px;
+    }
+    div .box-visitors {
+        width: 24%;
+        padding: 0px;
+    }
+    div .we-saw {
+        padding: 0;
+    }
+    div .box-visitors img {
+        width: 80%;
+        position: relative;
+        left: 9px;
+    }
+    div .box-visitors p {
+        position: relative;
+        left: 12px;
     }
     /*contact us*/
     .map iframe {
@@ -412,17 +696,23 @@ div .second-main {
         margin: auto;
         margin-top: 10px;
         padding-top: 20px;
-        margin-bottom: 120px;
+        margin-bottom: 170px;
     }
+    
     /*blog,   */
     div .blog-wrap {
-        float: none;
-        width: 95%;
-        padding: 0;
+        padding-left: 30px;
+        padding-right: 290px;
+        margin-bottom: 150px;
     }
+    div .blog-wrap h2 {
+        font-size: x-large;
+        font-weight: lighter;
+    }
+    
     /*timetable*/
     div .main-article, .second-main {
-        width: 97%;
+        width: 91%;
         margin: auto;
     }
     div .main-article {
@@ -431,20 +721,26 @@ div .second-main {
     div .second-main {
         padding-top: 20px;
     }
+    /*price-list*/
+    div .table {
+        width: 80%;
+        margin: auto;
+    }
+    
+    
 }
 @media only screen and (min-width: 320px) and (max-width: 767px) {
     div .branding, header li, header nav, 
     div .title-decoration, div .page-title, 
     section div.main, div .box-visitors, div .box-2, 
-    div .box, div .box-2, 
-    div .experience-box h3.prefix, h1.name,
-    h2.mat-time, .first-class, .about-dave, div .show-me,
-     div .tell-more
+    div .box, div .box-2, .about-dave, div .show-me
        {
         float: none;
         text-align: center;
         width: 100%;
         padding: 0;
+        position: relative;
+        right: 0;
     }
     body {
         font-size: small;
@@ -470,6 +766,15 @@ div .second-main {
         position: relative;
         top: 10px
     }
+    div hr.mini-dec {
+        position: relative;
+        bottom: 30px;
+        width: 14%;
+        padding: 1px;
+        background-color: #fca07f;
+        border-style: solid;
+        color: #fca07f;
+    }
     /* about*/
     div .experience-box, div.explain-box {
         float: none;
@@ -477,22 +782,71 @@ div .second-main {
         padding: 0;
         text-align: left;
     }
-    /*pricelist*/
-    div .money {
-        float: left;
+    section h3.hello {
+        font-size: x-large;
+    }
+    section p.intro {
+        font-size:2.5rem;
+        position: relative;
+        bottom: 30px;
+    }
+    section.about-helio {
+        position: relative;
+        bottom: 0;
+    }
+    div .mini-deco {
+        position: relative;
+        bottom: 70px;
+        width: 18%;
+    }
+    div .box img {
+        width: 230px;
+    }
+    section.about-school {
+        margin-top: 0;
+        height: 200px;
+    }
+    div .dave-deco {
+        position: relative;
+        left: 20px;
+        width: 20%;
+    }
+    div .tell-more {
+        border-top: lightgray 1px solid;
+        padding-left : 0;
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    div .tell-more .his-name {
+        position: relative;
+        bottom: 0;
+    }
+    div .flying-border {
+        border: 0;
+        height: 0;
+        border-top: 1px solid lightgrey;
+        position: relative;
+        top: 200px;
+        right: 0;
+        bottom: 0;
         width: 100%;
-        position: relative;
-        top: 20px;
+        float: none;
     }
+        div .tell-more .kish-deco {
+        width: 20%;
+        padding: 1px;
+        background-color: #fca07f;
+        border-style: solid;
+        color: #fca07f;
+        position: relative;
+        left: 20px;
+        bottom: 35px;
+    }
+    /*pricelist*/
     div .table {
-        position: relative;
-        bottom: 20px;
-    }
-    div .size {
-        padding-bottom: 60px;
-    }
-    div .types {
-        padding-bottom: 30px;
+        width:90%;
+        margin: auto;
     }
     /*contact us*/
     .map iframe {
@@ -508,7 +862,7 @@ div .second-main {
         width: 100%;
         position: relative;
         right: 0;
-        margin-top: 90px;
+        margin-top: 400px;
     }
     div .map, div .sign {
         float: none;
@@ -519,21 +873,33 @@ div .second-main {
     div .faq .wow, div .faq {
         width: 100%;
         padding-left: 0;
-        
     }
     div .boxes {
         width: 93%;
         margin: auto;
         margin-top: 10px;
         padding-top: 20px;
-        margin-bottom: 120px;
+        margin-bottom: 70px;
+    }
+    div .wow {
+        position: relative;
+        top: 380px;
+        padding-top: 60px;
+        border-top: lightgrey solid 1px;
     }
     /*blog, */
     div .blog-wrap {
-        float: none;
-        width: 95%;
-        margin: auto;
-        padding: 0;
+        padding-left: 10px;
+        padding-right: 30px;
+        margin-bottom: 50px;
+    }
+    div .blog-wrap h2 {
+        font-size: large;
+        font-weight: lighter;
+    }
+    div ._roge, ._monkey-tape {
+        position: relative;
+        bottom: 15px;
     }
     /*timetable*/
     div .main-article, .second-main {
