@@ -8,19 +8,44 @@
         <link href="CSS/css2.css" type="text/css" rel="stylesheet" />
     </head>
     <body>
+        <div class="container">
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+            <!-- overlay content -->
+            <ul class="overlay-content">
+                <li><a class="pod_navigation-piano" href="https://ilfordbjj.webnode.com">HOME</a></li>
+                            <li><a class="pod_navigation-piano" href="https://ilfordbjj.webnode.com/about-us/">ABOUT US</a></li>
+                            <li><a class="pod_navigation-piano" href="https://ilfordbjj.webnode.com/timetable/">TIMETABLE</a></li>
+                            <li><a class="pod_navigation-piano" href="https://ilfordbjj.webnode.com/pricelist/">PRICELIST</a></li>
+                            <li><a class="pod_navigation-piano" href="https://ilfordbjj.webnode.com/contact/">CONTACT</a></li>
+                            <li><a class="pod_navigation-piano" href="https://ilfordbjj.webnode.com/blog/">BLOG</a></li>
+                            
+            </ul>
+            
+        </div>
+                <!-- <span click="openNav()">&#9776;</span> -->
+    </div>
         <header>
             <div class="container">
                 <div class="branding">
                     <h1>IBJJ</h1>
+                    
                 </div>
-                    <nav>
+                <span class="openNav" onclick="openNav()">&#9776;</span>
+                    <nav id="page-nav">
+                        <!-- <label for="hamburger">&#9776;</label>
+                        <input type="checkbox" id="hamburger"> -->
+
                         <ul class="nav_head">
-                            <li><a class="pod_navigation-piano" href="https://ilfordbjj.webnode.com">Home</a></li>
-                            <li><a class="pod_navigation-piano" href="https://ilfordbjj.webnode.com/about-us/">About us</a></li>
-                            <li><a class="pod_navigation-piano" href="https://ilfordbjj.webnode.com/timetable/">Timetable</a></li>
-                            <li><a class="pod_navigation-piano" href="https://ilfordbjj.webnode.com/pricelist/">Pricelist </a></li>
-                            <li><a class="pod_navigation-piano" href="https://ilfordbjj.webnode.com/contact/">Contact</a></li>
-                            <li><a class="pod_navigation-piano" href="https://ilfordbjj.webnode.com/blog/">Blog</a></li>
+                            <li><a class="pod_navigation-piano-home" href="https://ilfordbjj.webnode.com">Home</a></li>
+                            <li><a class="pod_navigation-piano-home" href="https://ilfordbjj.webnode.com/about-us/">About us</a></li>
+                            <li><a class="pod_navigation-piano-home" href="https://ilfordbjj.webnode.com/timetable/">Timetable</a></li>
+                            <li><a class="pod_navigation-piano-home" href="https://ilfordbjj.webnode.com/pricelist/">Pricelist </a></li>
+                            <li><a class="pod_navigation-piano-home" href="https://ilfordbjj.webnode.com/contact/">Contact</a></li>
+                            <li><a class="pod_navigation-piano-home" href="https://ilfordbjj.webnode.com/blog/">Blog</a></li>
                         </ul>
                     </nav>
             </div>
@@ -28,10 +53,12 @@
 
         <section class="showcase">
             <div class="container">
+                
                 <div class="big-show">
                 <h1>ILFORD BRAZILIAN JIU JITSU</h1>
                 <p>Group Classes &amp; Private Tuition in Ilford.</p>
             </div>
+        
             </div>
         </section>
             <section class="main">
@@ -94,5 +121,6 @@
             </footer>
         
         </div>
+        <script src="page.js"></script> 
     </body>
 </html>

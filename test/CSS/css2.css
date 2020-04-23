@@ -1,4 +1,4 @@
-body {
+ body {
     font: 1.1rem/1.4 'Times New Roman', Times, serif;
     color: #778899;
     font-weight: lighter;
@@ -16,11 +16,14 @@ ul .nav_head {
     margin: 0;
     padding:0;
 }
+#page-nav label, #hamburger  {
+        display: none;
+    }
 header {
-    color: rgb(207, 94, 94);
+    color: #cf5e5e;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: lightgray 1px solid;
+    border-bottom: #d3d3d3 1px solid;
 }
 header a {
     color: #000000;
@@ -29,28 +32,66 @@ header a {
     outline: none;
 }
 header li {
-    float: left;
     display: inline;
-    padding: 0 20px 0 20px
+    padding: 0 20px 0 20px;
+    position: relative;
 }
-div .branding {
+.branding {
     float: left;
 }
-div .branding h1 {
+.branding h1 {
     margin:0px;
     font-weight: lighter;
 }
 header nav {
     float: right;
 }
+/* header link animations on hover for home page only*/
+.pod_navigation-piano-home::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -3px;
+    left: 0;
+    background: #000000;
+    visibility: hidden;
+    /* border-radius: 10px; */
+    transform: scaleX(0);
+    transition: .2s linear;
+}
+.pod_navigation-piano-home:hover::before {
+    visibility: visible;
+    transform: scaleX(0.7);
+}
+/* header link animations on hover for site*/
+.pod_navigation-piano::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -3px;
+    left: 0;
+    background:#cf5e5e;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: .2s linear;
+}
+.pod_navigation-piano:hover::before {
+    visibility: visible;
+    transform: scaleX(0.7);
+}
+
 /*Showcase*/
 .showcase {
     min-height: 500px;
     background: url(../img/BJJwebpagepic.jpg) no-repeat 0 -100px;
+    background-size: 100%;
     text-align: center;
-    color: rgb(207, 94, 94);
+    color: #cf5e5e;
 }
-div .big-show {
+
+.big-show {
     width: 75%;
     margin: auto;
 }
@@ -69,7 +110,7 @@ div .big-show {
     bottom: 20px;
 }
 /*main*/
-div.container_main {
+.container_main {
     width: 63%;
     margin:auto;
     overflow: hidden;
@@ -78,15 +119,15 @@ div.container_main {
     bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-div .title-decoration {
+.title-decoration {
     text-align: center;
     font-size: 3rem;
     position: relative;
     top: 65px;
     font-family:'Times New Roman', Times, serif;
-    color: rgb(207, 94, 94);
+    color: #cf5e5e;
 }
-div .mini-dec {
+.mini-dec {
     position: relative;
     bottom: 65px;
     width: 9%;
@@ -98,8 +139,9 @@ div .mini-dec {
 article ul ._till {
     list-style-position: outside;
     list-style-type:none;
-    list-style-image: url(../img/right-arrow_16px.png);
+    list-style-image: url(../img/right-arrow16px.png);
     line-height: 2.5;
+    padding-left: 30px;
 }
 .pod_major-choclate {
     font-weight: bold;
@@ -109,7 +151,7 @@ footer {
     padding: 35px;
     margin-top: 35px;
     text-align: center;
-    border-top: lightgray 1px solid;
+    border-top: #d3d3d3 1px solid;
     width: 77%;
     margin: auto;
 }
@@ -135,7 +177,7 @@ section h3.hello {
     top:10px;
 }
 section.about-helio {
-    border-bottom:  lightgray 1px solid;
+    border-bottom:  #d3d3d3 1px solid;
     width: 77%;
     margin: auto;
     position: relative;
@@ -143,7 +185,7 @@ section.about-helio {
     padding-bottom: 120px;
 }
 .about-school p.intro {
-    color: rgb(207, 94, 94);
+    color: #cf5e5e;
     font-size: 3.7rem;
     position: relative;
     bottom: 50px;
@@ -157,24 +199,24 @@ div .mini-deco {
     position: relative;
     bottom: 110px;
 }
-div .box {
+.box {
     float:left;
 }
-div .box img {
+.box img {
     width: 170px;
 }
-div.explain-box {
+.explain-box {
     padding-left: 250px;
     margin-top: 70px;
 }
 /*section*/
-div p.name {
-    color: rgb(207, 94, 94);
+p.name {
+    color: #cf5e5e;
     font-size: 2.3rem;
     position: relative;
     bottom: 30px;
 }
-div .dave-deco {
+.dave-deco {
     width: 14%;
     padding: 1px;
     background-color: #fca07f;
@@ -185,60 +227,60 @@ div .dave-deco {
     bottom: 65px; 
 }
 h2.mat-time {
-    color: rgb(207, 94, 94);
+    color: #cf5e5e;
     font-weight: lighter;
 }
 .first-class {
     position: relative;
     bottom: 40px;
 }
-div .box-2 {
+.box-2 {
     position: relative;
     right: 105px;
     float: right;
     padding-bottom: 70px;
-    border-bottom:  lightgray 1px solid;
+    border-bottom:  #d3d3d3 1px solid;
 }
-div .experience-box h3.prefix{
+.experience-box h3.prefix{
     font-weight: lighter;
 }
-div .experience-box h3.prefix, p.name, h2.mat-time, .first-class{
+.experience-box h3.prefix, p.name, h2.mat-time, .first-class{
     text-align: right;
 }
-div .experience-box {
+.experience-box {
     width: 40%;
     padding-left: 82px;
 }
-div .show-me {
+.show-me {
     width: 40%;
     padding-left: 82px;
     margin-top: 80px;
 }
 /*section*/
-div .tell-more {
+.tell-more {
     padding-left: 82px;
     margin-top: 80px;
 }
 hr.flying-border {
     border: 0;
     height: 0;
-    border-top: 1px solid lightgrey;
+    border-top: 1px solid #d3d3d3;
     position: relative;
     right: 100px;
     bottom: 140px;
     width: 40%;
     float: right;
 }
-div .tell-more .time {
-    color: rgb(207, 94, 94);
+.time {
+    color: #cf5e5e;
 }
-div .tell-more .his-name {
-    color: rgb(207, 94, 94);
+.his-name {
+    color: #cf5e5e;
     font-size: 2.3rem;
     position: relative;
     bottom: 30px;
 }
-div .tell-more .kish-deco {
+.kish-deco {
     width: 6%;
     padding: 1px;
     background-color: #fca07f;
@@ -248,10 +290,10 @@ div .tell-more .kish-deco {
     right: 330px;
     bottom: 60px;
 }
-div .tell-more h3 {
+.tell-more h3 {
     font-weight: lighter;
 }
-div .we-host {
+.we-host {
     width: 63%;
     margin: auto;
     overflow: hidden;
@@ -274,7 +316,7 @@ a.pod_beans-baked:link {
 }
 a.pod_beans-baked {
     color: #ffffff;
-    background-color: coral;
+    background-color: #ff7f50;
     padding: 20px 85px;
 }
 a.pod_beans-baked:active {
@@ -287,19 +329,35 @@ a.pod_beans-baked:hover {
 .visitors {
     margin-top: 40px ;
 }
-div .box-visitors {
+.box-visitors {
     float: left;
     text-align: center;
     width:23%;
     padding: 8px;
 }
-div .box-visitors img {
+.box-visitors img {
     width: 75%;
 }
-div .we-saw {
+.we-saw {
     padding: 0 82px 0 82px;
 }
 /*contact us page*/
+footer.contact-foot {
+    padding: 35px;
+    margin-top: 35px;
+    text-align: center;
+    border-top: #d3d3d3 1px solid;
+    width: 77%;
+    margin: auto;
+}
+hr.divider-contact {
+    border: 0;
+    height: 0;
+    border-top: 1px #d3d3d3 solid;
+    position: relative;
+    top: 200px;
+    width: 83%;
+}
 .about-contact p.outtro {
     color: rgb(207, 94, 94);
     font-size: 3.7rem;
@@ -308,7 +366,7 @@ section h3.goodbye {
     position: relative;
     top: 50px;
 }
-div .contact-deco {
+.contact-deco {
     width: 5%;
     padding: 1px;
     background-color: #fca07f;
@@ -324,50 +382,51 @@ section h3.goodbye, p.outtro {
 .map iframe {
     padding-left: 60px;
 }
-div .map {
+.map {
     width: 60%;
     float: left;
 }
-div .sign {
+.sign {
     width: 35%;
     float: right;
 }
 /*faq - book contact us*/
-div .hanger {
+.hanger {
     float:right;
     width: 35%;
     position: relative;
     right: 90px;
     padding-bottom: 50px;
 }
-div.hanger h2 {
-    color: rgb(207, 94, 94);
+.hanger h2 {
+    color: #cf5e5e;
 }
-div.hanger h3 {
+.hanger h3 {
     font-weight: lighter;
 }
-
-div .faq {
+.faq {
     width: 30%;
     float: left;
-    color: rgb(207, 94, 94); ;
+    color: #cf5e5e; ;
 }
-div .faq .wow {
+.faq .wow {
     padding-left: 50px;
 }
-div .boxes {
+.boxes {
     min-height: 760px;
-    margin-top: 750px;
+    margin-top: 400px;
 }
 /*links-conatact*/
-div .sign ul {
+.sign ul {
     text-indent: 20px;
     font-size: large;
     line-height: 2;
+    color: #000000;
 }
 ._hashbrowns {
     list-style-type: none;
     list-style-position: outside;
+    color: #808080;
 }
 ._pancakes {
     list-style-type: none;
@@ -387,15 +446,29 @@ div .sign ul {
 ._toast-up:link {
     color: #000000;
     outline: none;
+    text-decoration: none;
 }
+/* Testing some animation on link :)
+
+._toast-up:link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: black;
+    transition: .3s;
+}
+._toast-up:hover::after {
+    width: 100%;
+} */
 ._toast-up:active {
-    color: #ff7f50;
+    color: #000000;
 }
 ._toast-up:hover {
-    color: #ff7f50;
+    color:  #000000;
 }
 ._toast-up:visited {
-    color: #ff7f50;
+    color: #000000;
 }
 ._toast {
     list-style-type: none;
@@ -439,16 +512,16 @@ a.pod_feet-heel:visited {
     text-decoration: none;
     color: #778899;
 }
-div .blog-wrap {
+.blog-wrap {
     padding-left: 180px;
     padding-right: 500px;
     margin-bottom: 150px;
 }
-div .blog-wrap h2 {
+.blog-wrap h2 {
     font-size: xx-large;
     font-weight: lighter;
 }
-div ._roge, ._monkey-tape {
+._roge, ._monkey-tape {
     position: relative;
     bottom: 25px;
 }
@@ -463,7 +536,7 @@ div ._roge, ._monkey-tape {
     text-decoration: solid 1px underline;
 }
 .pecil-top:visited {
-    color: rgb(207, 94, 94);
+    color: #cf5e5e;
 }
 ._pencil-world {
     color: #778899;
@@ -475,34 +548,28 @@ div ._roge, ._monkey-tape {
     color: #778899;
 }
 /*timetable*/
-.price-deco {
-    width: 6%;
-    color: coral;
-    border: 2px solid;
-    position: relative;
-    bottom: 50px;
-}
+
 .our-place {
     margin-top: 40px;
     text-align: center;
     font-weight: lighter;
-    color: rgb(207, 94, 94);
+    color: #cf5e5e;
     font-size: 3.7rem;
 }
-div .main-article .time-title, .second-main .time-title {
-    color: rgb(207, 94, 94);
+.main-article .time-title, .second-main .time-title {
+    color: #cf5e5e;
 }
-div .main-article, .second-main {
+.main-article, .second-main {
     width: 70%;
     margin: auto;
 }
-div .main-article {
+.main-article {
     padding-bottom: 80px;
 }
-div .second-main {
+.second-main {
     padding: 50px 0 50px 0;
 }
-div .time-deco {
+.time-deco {
     color: #fca07f;
     background-color:  #fca07f;
     padding: 2px;
@@ -516,13 +583,14 @@ div .time-deco {
     text-decoration: underline;
     outline: none;
 }
+ 
 .pod_letter-opener:visited {
     color: #db6e46;
 }
 hr.divider-time {
     border: 0;
     height: 0;
-    border-top: 1px lightgrey solid;
+    border-top: 1px #d3d3d3 solid;
     position: relative;
     bottom: 13px;
     width: 83%;
@@ -532,57 +600,49 @@ section.time-section {
     bottom: 50px;
 }
 /*price-list*/
-
-div .when-where {
-    width: 63%;
-    margin: auto;
-}
-div .head-quarters {
-    width: 63%;
-    margin: auto;
-    margin-top: 130px;
-    margin-bottom: 60px;
-}
-.pod_letter-opener:link {
+.price-deco {
+    width: 6%;
     color: #ff7f50;
-    text-decoration: underline;
-    outline: none;
+    border: 2px solid;
+    position: relative;
+    bottom: 50px;
 }
-.pod_letter-opener:visited {
-    color: #db6e46;
-}
-div .table {
+.table {
     width: 50%;
     margin: auto;
 }
-div .money {
+.money {
     float:right;
 }
-div .money, .size, .no-deco {
+.money, .size, .no-deco {
     font-size: 1.5rem;
     color: #000000;
 }
-div .size, .types {
-    border-bottom: 1px solid grey;
+.size, .types {
+    border-bottom: 1px solid #808080;
     padding-bottom: 40px;
 }
-div .table-row {
+.table-row {
     margin-top: 20px;
 }
 .about-price {
     margin-bottom: 60px;
     margin-top: 80px
 }
-div .types {
-    color: rgb(207, 94, 94);
+.types {
+    color: #cf5e5e;
 }
-
+.overlay a, .overlay-content {
+    display: none;
+}
+.openNav {
+    display: none;
+}
 /*media queries*/
 
-@media only screen and (min-width: 765px) and (max-width: 1027px){
-    div .branding, header li, header nav, 
-    div .title-decoration, div .page-title, 
-    .about-dave  {
+@media only screen and (min-width: 764px) and (max-width: 1024px){
+    .title-decoration, .page-title, 
+    .about-dave {
         float: none;
         text-align: center;
         width: 100%;
@@ -590,17 +650,75 @@ div .types {
         position: relative;
         right: 0;
     }
+    .showcase {
+        background: url(../img/BJJwebpagepic.jpg) no-repeat 0 -100px;
+        background-size: none;
+    }
+    /* Overlay menu devices*/
+    header ul {
+        display: none;
+    }
+    .closebtn {
+        font-size: 30px;
+        float: right;
+    }
+    .overlay-content li {
+       list-style: none;
+    }
+    .openNav {
+        display: block;
+        float: right;
+        font-size: 30px;
+    }
+    .overlay {
+        height: 100%;
+        width: 0; /* The overlay menu will not appear on the screen, will change with Java Script*/
+        position: fixed; /* make sure menu stays in place*/
+        z-index: 1; /* z index allows the markup (overlay) to sit on top, for the overlay */
+        right: 0;
+        top: 0;
+        background-color: #ffffff;/* rgb(0,0,0);  Fallback color you can pick */
+        background-color: #ffffff;  /* rgb(0,0,0,0.9); /*black, with opacity (see 0.9 to change opacity)*/
+        overflow-x: hidden; /*disable horizontal scroll*/
+        transition: 0.5s; /* the seconds of transition effect to slide in or down the overlay (width for side reveal, or hight for top reveal) */
+    }
+    .overlay-content {
+        display: flex;
+        flex-direction: column;
+        text-decoration: #000000;
+        margin-top: 100px;
+    }
+    .overlay a {
+        display: block;
+        color: #808080;
+        padding: 30px;
+        text-decoration: none;
+        font-size: 2rem;
+    }
+    .overlay li a {
+        outline: none;
+        padding: 10px;
+        padding-left: 40px;
+        text-decoration: none; 
+        font-size: 1.5rem;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #808080;
+        display: block;
+        transition: 0.3s;
+        border-bottom: #808080 solid 0.5px;
+        border-top: 0.5px solid #808080;
+        width: 100%;
+    }
+    /* Overlay menu devices end*/
     header {
         padding-bottom: 10px;
     }
     .showcase h1 {
         margin-top: 110px;
     }
-    header li {
-        padding: 0 25px 0 25px
-    }
+    
     /* about*/
-    div .experience-box  {
+    .experience-box  {
         float: none;
         width: 50%;
         padding: 0;
@@ -610,58 +728,58 @@ div .types {
         width: 93%;
         margin: auto;
     }
-    div .explain-box {
+    .explain-box {
         padding-left: 180px;
     }
-    div .box img {
+    .box img {
         width: 125px;
     }
-    div .box-2 img {
+    .box-2 img {
         width: 100%;
         height: 300px;
     }
-    div .box-2 {
+    .box-2 {
         position: relative;
         right: 0;
         width: 45%;
     }
-    div .show-me {
+    .show-me {
         padding-left: 0;
         width: 50%;
     }
-    div .show-me img {
+    .show-me img {
         width: 100% ;
         height: 260px;
     }
-    div .tell-more {
+    .tell-more {
         padding-left: 0;
     }
-    div .flying-border {
+    .flying-border {
         position: relative;
         right: 10px;
     }
-    div .tell-more .kish-deco {
+    .tell-more .kish-deco {
         position: relative;
         right: 190px;
         width: 10%;
     }
-    div .we-host {
+    .we-host {
         width: 100%;
         margin-top: 40px;
     }
-    div .box-visitors {
+    .box-visitors {
         width: 24%;
         padding: 0px;
     }
-    div .we-saw {
+    .we-saw {
         padding: 0;
     }
-    div .box-visitors img {
+    .box-visitors img {
         width: 80%;
         position: relative;
         left: 9px;
     }
-    div .box-visitors p {
+    .box-visitors p {
         position: relative;
         left: 12px;
     }
@@ -674,66 +792,72 @@ div .types {
         width: 100%;
         padding: 0;
     }
-    div .faq .wow, div .faq {
+    .faq .wow, .faq {
         width: 100%;
         padding-left: 0;
     }
-    div .hanger {
+    .hanger {
         float: left;
         width: 100%;
         position: relative;
         right: 0;
         margin-top: 90px;
     }
-    div .map, div .sign {
+    .map, .sign {
         float: none;
         margin: auto;
         width: 93%;
         padding-left: 0;
     }
-    div .boxes {
+    .boxes {
         width: 93%;
         margin: auto;
         margin-top: 10px;
         padding-top: 20px;
         margin-bottom: 170px;
     }
-    
+    hr.divider-contact {
+        border: none;
+        height: none;
+        border-top: none;
+        position: none;
+        top: none;
+        width: none;
+    }
     /*blog,   */
-    div .blog-wrap {
+    .blog-wrap {
         padding-left: 30px;
         padding-right: 290px;
         margin-bottom: 150px;
     }
-    div .blog-wrap h2 {
+    .blog-wrap h2 {
         font-size: x-large;
         font-weight: lighter;
     }
     
     /*timetable*/
-    div .main-article, .second-main {
+    .main-article, .second-main {
         width: 91%;
         margin: auto;
     }
-    div .main-article {
+    .main-article {
         padding-bottom: 90px;
     }
-    div .second-main {
+    .second-main {
         padding-top: 20px;
     }
     /*price-list*/
-    div .table {
+    .table {
         width: 80%;
         margin: auto;
     }
     
-    
 }
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-    div .branding, header li, header nav, 
-    div .title-decoration, div .page-title, 
-    section div.main, div .box-visitors, div .box-2, 
-    div .box, div .box-2, .about-dave, div .show-me
+    header li, header nav, 
+    .title-decoration, div .page-title, 
+    section div.main, .box-visitors, .box-2, 
+    .box, .box-2, .about-dave, .show-me
        {
         float: none;
         text-align: center;
@@ -741,6 +865,76 @@ div .types {
         padding: 0;
         position: relative;
         right: 0;
+    }
+    #page-nav label, #hamburger  {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 30px;
+    }
+    header li, header a {
+        display: inline-block;
+    }
+    /* overlay menu for devices*/
+    header ul {
+        display: none;
+    }
+    .closebtn {
+        font-size: 30px;
+        float: right;
+    }
+    .overlay-content li {
+       list-style: none;
+    }
+    .openNav {
+        display: block;
+        float: right;
+        font-size: 30px;
+    }
+    .overlay {
+        height: 100%;
+        width: 0; /* The overlay menu will not appear on the screen, will change with Java Script*/
+        position: fixed; /* make sure menu stays in place*/
+        z-index: 1; /* z index allows the markup (overlay) to sit on top, for the overlay */
+        right: 0;
+        top: 0;
+        background-color: #ffffff;/* rgb(0,0,0); Fallback color you can pick*/
+        background-color: #ffffff; /* rgb(0,0,0,0.9); black, with opacity (see 0.9 to change opacity)*/
+        overflow-x: hidden; /*disable horizontal scroll*/
+        transition: 0.5s; /* the seconds of transition effect to slide in or down the overlay (width for side reveal, or hight for top reveal) */
+    }
+    .overlay-content {
+        display: flex;
+        flex-direction: column;
+        text-decoration: #000000;
+        margin-top: 100px;
+    }
+    .overlay a {
+        display: block;
+        color: #808080;
+        padding: 30px 30px 10px 30px;
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+    
+    .overlay li a {
+        padding: 10px;
+        padding-left: 40px;
+        text-decoration: none; 
+        font-size: 1.2rem;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #808080;
+        display: block;
+        transition: 0.3s;
+        border-bottom: #808080 solid 0.5px;
+        border-top: 0.5px solid #808080;
+        width: 80%;
+    }
+
+    /* overlay menu for devices end*/
+
+    .showcase {
+        background: url(../img/BJJwebpagepic.jpg) no-repeat 0 -100px;
+        background-size: none;
     }
     body {
         font-size: small;
@@ -762,7 +956,7 @@ div .types {
         font-size: xx-small;
         padding: 0 15px 0 15px
     }
-    div .title-decoration {
+    .title-decoration {
         position: relative;
         top: 10px
     }
@@ -776,7 +970,7 @@ div .types {
         color: #fca07f;
     }
     /* about*/
-    div .experience-box, div.explain-box {
+    .experience-box, div.explain-box {
         float: none;
         width: 100%;
         padding: 0;
@@ -794,35 +988,35 @@ div .types {
         position: relative;
         bottom: 0;
     }
-    div .mini-deco {
+    .mini-deco {
         position: relative;
         bottom: 70px;
         width: 18%;
     }
-    div .box img {
+    .box img {
         width: 230px;
     }
     section.about-school {
         margin-top: 0;
         height: 200px;
     }
-    div .dave-deco {
+    .dave-deco {
         position: relative;
         left: 20px;
         width: 20%;
     }
-    div .tell-more {
+    .tell-more {
         border-top: lightgray 1px solid;
         padding-left : 0;
         margin-top: 30px;
         padding-top: 20px;
         padding-bottom: 40px;
     }
-    div .tell-more .his-name {
+    .tell-more .his-name {
         position: relative;
         bottom: 0;
     }
-    div .flying-border {
+    .flying-border {
         border: 0;
         height: 0;
         border-top: 1px solid lightgrey;
@@ -833,7 +1027,7 @@ div .types {
         width: 100%;
         float: none;
     }
-        div .tell-more .kish-deco {
+    .tell-more .kish-deco {
         width: 20%;
         padding: 1px;
         background-color: #fca07f;
@@ -844,7 +1038,8 @@ div .types {
         bottom: 35px;
     }
     /*pricelist*/
-    div .table {
+    
+    .table {
         width:90%;
         margin: auto;
     }
@@ -857,59 +1052,71 @@ div .types {
         width: 100%;
         padding: 0;
     }
-    div .hanger {
+    .hanger {
         float: left;
         width: 100%;
         position: relative;
         right: 0;
         margin-top: 400px;
     }
-    div .map, div .sign {
+    .map, .sign {
         float: none;
         margin: auto;
         width: 93%;
         padding-left: 0;
     }
-    div .faq .wow, div .faq {
+    .faq .wow, .faq {
         width: 100%;
         padding-left: 0;
     }
-    div .boxes {
+    .boxes {
         width: 93%;
         margin: auto;
         margin-top: 10px;
         padding-top: 20px;
         margin-bottom: 70px;
+        min-height: 760px;
     }
-    div .wow {
+    .wow {
         position: relative;
         top: 380px;
         padding-top: 60px;
         border-top: lightgrey solid 1px;
     }
+    hr.divider-contact {
+        border: none;
+        height: none;
+        border-top: none;
+        position: none;
+        top: none;
+        width: none;
+    }
+    footer.contact-foot {
+        border-top: none;
+    }
     /*blog, */
-    div .blog-wrap {
+    .blog-wrap {
         padding-left: 10px;
         padding-right: 30px;
         margin-bottom: 50px;
     }
-    div .blog-wrap h2 {
+    .blog-wrap h2 {
         font-size: large;
         font-weight: lighter;
     }
-    div ._roge, ._monkey-tape {
+    ._roge, ._monkey-tape {
         position: relative;
         bottom: 15px;
     }
     /*timetable*/
-    div .main-article, .second-main {
+    .main-article, .second-main {
         width: 97%;
         margin: auto;
     }
-    div .main-article {
+    .main-article {
         padding-bottom: 90px;
     }
-    div .second-main {
+    .second-main {
         padding-top: 20px;
     }
 }
