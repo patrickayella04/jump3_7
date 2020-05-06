@@ -1,4 +1,11 @@
- body {
+@font-face {
+    font-family: "FreeSerif";
+    src: url("fonts/FreeSerif/FreeSerifBoldItalic.ttf");
+    /* font-family: "Junicode";
+    src: url("fonts/Junicode/Junicode-Italic.ttf"); */
+    }
+    /*Learnt how to import font styles about for main header title*/
+body {
     font: 1.1rem/1.4 'Times New Roman', Times, serif;
     color: #778899;
     font-weight: lighter;
@@ -45,6 +52,25 @@ header li {
 }
 header nav {
     float: right;
+}
+/*text underline for header link*/
+.pod_navigation-piano-stay::before {
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 2px;
+    bottom: -3px;
+    background: #000000;
+    left: 15%;
+}
+.pod_navigation-about::before {
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 2px;
+    bottom: -3px;
+    background:#cf5e5e;
+    left: 15%;
 }
 /* header link animations on hover for home page only*/
 .pod_navigation-piano-home::before {
@@ -103,6 +129,8 @@ header nav {
     border-bottom: #ffffff solid 2px;
     border-top: #ffffff solid 2px;
     font-weight: lighter;
+    font-family: 'FreeSerif';
+    /* font-family: 'Junicode'; */
 }
 .showcase p {
     font-size: 1.5rem;
@@ -318,6 +346,7 @@ a.pod_beans-baked {
     color: #ffffff;
     background-color: #ff7f50;
     padding: 20px 85px;
+    /* box-shadow: 0 0 3em gray; */
 }
 a.pod_beans-baked:active {
     color: #ff7f50;
@@ -349,14 +378,6 @@ footer.contact-foot {
     border-top: #d3d3d3 1px solid;
     width: 77%;
     margin: auto;
-}
-hr.divider-contact {
-    border: 0;
-    height: 0;
-    border-top: 1px #d3d3d3 solid;
-    position: relative;
-    top: 200px;
-    width: 83%;
 }
 .about-contact p.outtro {
     color: rgb(207, 94, 94);
@@ -414,12 +435,14 @@ section h3.goodbye, p.outtro {
 }
 .boxes {
     min-height: 760px;
-    margin-top: 400px;
+    margin-top: 600px;
 }
+
 /*links-conatact*/
 .sign ul {
     text-indent: 20px;
-    font-size: large;
+    /* font-size: large; */
+    font-size: 1.3rem;
     line-height: 2;
     color: #000000;
 }
@@ -447,20 +470,24 @@ section h3.goodbye, p.outtro {
     color: #000000;
     outline: none;
     text-decoration: none;
+    position: relative;
 }
-/* Testing some animation on link :)
-
 ._toast-up:link::after {
     content: '';
-    position: absolute;
-    width: 0;
+    background-color: rgb(200, 205, 211);
     height: 2px;
-    background: black;
-    transition: .3s;
-}
-._toast-up:hover::after {
     width: 100%;
-} */
+    bottom: -3px;
+    left: 0;
+    position: absolute;
+    transform: scale(1);
+    transition: ease-in 200ms;
+}
+._toast-up:link:hover::after{
+    transform: scale(1);
+    background-color: black;
+}
+
 ._toast-up:active {
     color: #000000;
 }
@@ -486,20 +513,31 @@ section h3.goodbye, p.outtro {
     list-style-image: url(../img/twitter_24px.png);
 }
 /*inputs-contact*/
-._pod-strangler, ._pod-sandler, ._pod-tangler, ._pod-handler {
+._pod-strangler, ._pod-sandler, ._pod-tangler, ._pod-handler {  /*make strangler longer*/
     width: 100%;
-    padding: 20px 0 20px 0;
+    padding: 10px 0 10px 10px;
+    border-radius: 0 0 5px 5px;
+    outline: none;
+    background-color: rgb(238, 230, 228) ;
+}
+._pod-strangler {
+    width: 103%;
+}
+
+._pod-handler {
+   padding: 10px 0 50px 10px ;
+
 }
 ._pod-wrangler, ._pod-spangler, ._pod-dangler {
     font-weight: bold;
     color: #000000;
 }
 ._pod-bangler {
-    padding: 15px 25px;
+    padding: 15px 20px ;
     position: relative;
     top: 20px;
     font-size: 1.2rem;
-    background-color: #ff7f50;
+    background-color: hsl(16, 100%, 66%);
     color: #ffffff;
 }
 /*blog page*/
@@ -653,6 +691,8 @@ section.time-section {
     .showcase {
         background: url(../img/BJJwebpagepic.jpg) no-repeat 0 -100px;
         background-size: none;
+        min-height: 400px;
+
     }
     /* Overlay menu devices*/
     header ul {
@@ -669,6 +709,7 @@ section.time-section {
         display: block;
         float: right;
         font-size: 30px;
+        cursor: pointer;
     }
     .overlay {
         height: 100%;
@@ -715,6 +756,11 @@ section.time-section {
     }
     .showcase h1 {
         margin-top: 110px;
+        font-size: 2.2em;
+    }
+    .big-show {
+        width: 85%;
+        padding-top: 50px;
     }
     
     /* about*/
@@ -816,14 +862,7 @@ section.time-section {
         padding-top: 20px;
         margin-bottom: 170px;
     }
-    hr.divider-contact {
-        border: none;
-        height: none;
-        border-top: none;
-        position: none;
-        top: none;
-        width: none;
-    }
+   
     /*blog,   */
     .blog-wrap {
         padding-left: 30px;
@@ -889,6 +928,7 @@ section.time-section {
         display: block;
         float: right;
         font-size: 30px;
+        cursor: pointer;
     }
     .overlay {
         height: 100%;
@@ -935,6 +975,7 @@ section.time-section {
     .showcase {
         background: url(../img/BJJwebpagepic.jpg) no-repeat 0 -100px;
         background-size: none;
+        min-height: 400px;
     }
     body {
         font-size: small;
@@ -948,9 +989,6 @@ section.time-section {
     .showcase h1 {
         margin-top: 110px;
         font-size: 2rem;
-    }
-    .showcase  {
-        min-height: 600px;
     }
     header li {
         font-size: xx-small;
@@ -1076,21 +1114,22 @@ section.time-section {
         padding-top: 20px;
         margin-bottom: 70px;
         min-height: 760px;
+
     }
-    .wow {
+    /* .wow {
         position: relative;
         top: 380px;
         padding-top: 60px;
         border-top: lightgrey solid 1px;
-    }
-    hr.divider-contact {
+    } */
+    /* hr.divider-contact {
         border: none;
         height: none;
         border-top: none;
         position: none;
         top: none;
         width: none;
-    }
+    } */
     footer.contact-foot {
         border-top: none;
     }
