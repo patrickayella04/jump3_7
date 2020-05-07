@@ -975,7 +975,7 @@ section.time-section {
     .showcase {
         background: url(../img/BJJwebpagepic.jpg) no-repeat 0 -100px;
         background-size: none;
-        min-height: 400px;
+        min-height: 300px;
     }
     body {
         font-size: small;
@@ -1114,7 +1114,13 @@ section.time-section {
         padding-top: 20px;
         margin-bottom: 70px;
         min-height: 760px;
-
+    }
+    ._pod-strangler, ._pod-sandler, 
+    ._pod-tangler, ._pod-handler {
+        width: 98%;
+    }
+    ._pod-strangler {
+        width: 101%;
     }
     /* .wow {
         position: relative;
